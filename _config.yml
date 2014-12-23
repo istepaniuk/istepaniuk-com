@@ -1,6 +1,5 @@
 destination: /var/www/blog
-highlighter: true
-permalink: a/:title
+permalink: /:title
 title: Serious Technobabble
 email: istepaniuk@gmail.com
 description: >
@@ -9,4 +8,6 @@ baseurl: ""
 url: "http://blog2.istepaniuk.com"
 twitter_username: istepaniuk
 github_username:  istepaniuk
-markdown: kramdown
+
+markdown: redcarpet
+highlighter: pygments
