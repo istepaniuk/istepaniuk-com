@@ -31,7 +31,7 @@ The site was about video game console emulation, and it basically contained revi
 Or at least how it looks now in the beta chromium browser for Linux.
 Probably quite different from what it looked like in IE3.0 and 4.01
 
-[<img class="alignleft size-full wp-image-78" title="GameKingdom Screenshot" alt="" src="http://blog.istepaniuk.com/wp-content/uploads/Screenshot-at-2012-04-10-232911.png" width="725" height="801" />][1]
+[<img class="alignleft size-full wp-image-78" title="GameKingdom Screenshot" alt="" src="/img/Screenshot-at-2012-04-10-232911.png" width="725" height="801" />][1]
 
 What a horrible name! The broken images were external, including the large banner at the top that was part of some banner interchange site.
 
@@ -90,7 +90,7 @@ Changing anything was really painful. There was no JavaScript except for some `w
 
 ### Don't panic!
 I used one of these too:
-<a href="http://blog.istepaniuk.com/wp-content/uploads/underconstruction.gif"><img class="alignleft  wp-image-80" style="margin-left: 30px; margin-right: 30px;" title="underconstruction" alt="" src="http://blog.istepaniuk.com/wp-content/uploads/underconstruction.gif" width="38" height="38" />
+<a href="/img/underconstruction.gif"><img class="alignleft  wp-image-80" style="margin-left: 30px; margin-right: 30px;" title="underconstruction" alt="" src="/img/underconstruction.gif" width="38" height="38" />
 
- [1]: http://blog.istepaniuk.com/wp-content/uploads/Screenshot-at-2012-04-10-232911.png
+ [1]: /img/Screenshot-at-2012-04-10-232911.png
  [2]: http://en.wikipedia.org/wiki/Engrish

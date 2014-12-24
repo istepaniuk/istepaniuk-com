@@ -20,7 +20,7 @@ tags:
 Last week Rafael de Castro ([@rafadc][1]) and I facilitated a <a title="Coding Dojos Are Great" href="http://blog.istepaniuk.com/coding-dojos-are-great/" target="_blank">Coding Dojo</a> for the Madrid Software Craftsmanship <a title="Madrid Software Craftsmanship on Meetup" href="http://www.meetup.com/madswcraft/" target="_blank">meetup</a> group (219 members and growing every week!) in which we participate. The idea was to make a Dojo in which we could practice refactoring.
 
 <div id="attachment_516" style="width: 610px" class="wp-caption alignleft">
-  <img class="size-full wp-image-516 " alt="Iván Stepaniuk standing in the back, and some Madrid Craftsmen and Craftswomen" src="http://blog.istepaniuk.com/wp-content/uploads/ivan-stepaniuk-dojo.jpeg" width="600" height="450" />
+  <img class="size-full wp-image-516 " alt="Iván Stepaniuk standing in the back, and some Madrid Craftsmen and Craftswomen" src="/img/ivan-stepaniuk-dojo.jpeg" width="600" height="450" />
   
   <p class="wp-caption-text">
     Myself in the back, standing. Some Madrid Craftsmen and Craftswomen at work!
@@ -32,7 +32,7 @@ It went pretty well! This is the second time we meet in the <a title="MediaLab P
 For the Dojo we have chosen a well known Kata called &#8220;Gilded Rose&#8221;, it is a very simple piece of software that updates the quality value of the items in a store following some simple business rules. The problem is that **the code sucks**, we are asked to add a new feature but the code is so horrible that you don&#8217;t even know where to start.
 
 <div id="attachment_515" style="width: 650px" class="wp-caption alignleft">
-  <img class="size-large wp-image-515" alt="Rafael de Castro Facilitating a Refactoring Dojo" src="http://blog.istepaniuk.com/wp-content/uploads/rafa-de-castro-dojo-640x478.jpg" width="640" height="478" />
+  <img class="size-large wp-image-515" alt="Rafael de Castro Facilitating a Refactoring Dojo" src="/img/rafa-de-castro-dojo-640x478.jpg" width="640" height="478" />
   
   <p class="wp-caption-text">
     Rafael de Castro (in the back, standing) Facilitating.

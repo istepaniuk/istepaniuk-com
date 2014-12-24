@@ -56,7 +56,7 @@ Some of our work required to interact with real hardware via <a href="http://en.
 The one hour+ commute to their offices proved painful compared to my 20 minute-ish daily commute, made me think about some colleagues at *SaludOnNet* that do that every day.
 
 <div id="attachment_434" style="width: 636px" class="wp-caption alignleft">
-  <a href="http://blog.istepaniuk.com/wp-content/uploads/desksurfing-alea-big.jpg" target="_blank"><img class=" wp-image-434    " title="Guillermo Pascual, Iván Stepaniuk, Alberto Pérez, Eduardo Ferro - Click to enlarge" alt="Guillermo Pascual, Iván Stepaniuk, Alberto Pérez, Eduardo Ferro" src="http://blog.istepaniuk.com/wp-content/uploads/desksurfing-alea.jpg" width="626" height="469" /></a>
+  <a href="/img/desksurfing-alea-big.jpg" target="_blank"><img class=" wp-image-434    " title="Guillermo Pascual, Iván Stepaniuk, Alberto Pérez, Eduardo Ferro - Click to enlarge" alt="Guillermo Pascual, Iván Stepaniuk, Alberto Pérez, Eduardo Ferro" src="/img/desksurfing-alea.jpg" width="626" height="469" /></a>
   
   <p class="wp-caption-text">
     Left to right: Guillermo Pascual (<a href="https://twitter.com/pasku1" target="_blank">@pasku1</a>), myself &#8211; Iván Stepaniuk (<a href="https://twitter.com/istepaniuk" target="_blank">@istepaniuk</a>),<br /> Alberto Pérez (<a href="https://twitter.com/APA42" target="_blank">@APA42</a>) and Eduardo Ferro (<a href="https://twitter.com/eferro" target="_blank">@eferro</a>) at the <a href="http://www.alea-soluciones.com/" target="_blank">Alea Soluciones</a> offices.

@@ -22,7 +22,7 @@ tags:
 </p>
 
 <div id="attachment_134" style="width: 373px" class="wp-caption alignleft">
-  <a href="http://blog.istepaniuk.com/wp-content/uploads/antoine-saint-exupery.jpg"><img class="size-full wp-image-134" title="antoine-saint-exupery" alt="" src="http://blog.istepaniuk.com/wp-content/uploads/antoine-saint-exupery.jpg" width="363" height="500" /></a>
+  <a href="/img/antoine-saint-exupery.jpg"><img class="size-full wp-image-134" title="antoine-saint-exupery" alt="" src="/img/antoine-saint-exupery.jpg" width="363" height="500" /></a>
   
   <p class="wp-caption-text">
     (Public domain)

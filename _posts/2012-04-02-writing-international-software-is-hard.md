@@ -18,7 +18,7 @@ I have compiled a set of advices to keep in mind from the beginning, most of whi
 
 ### String constants
 
-[<img class="alignright" style="background: none repeat scroll 0% 0% transparent; margin-top: -30px; border: 0px;" title="Rosetta Stone" src="http://blog.istepaniuk.com/wp-content/uploads/rosettastone.png" alt="" width="139" height="178" />][1]Great care must be taken when adding new strings to the application like a message for the user, UI caption, etc. Having to change these string constants once the translations are already in place is **expensive** and time-consuming.
+[<img class="alignright" style="background: none repeat scroll 0% 0% transparent; margin-top: -30px; border: 0px;" title="Rosetta Stone" src="/img/rosetta-stone.png" alt="" width="139" height="178" />][1]Great care must be taken when adding new strings to the application like a message for the user, UI caption, etc. Having to change these string constants once the translations are already in place is **expensive** and time-consuming.
 
 In most <a href="http://en.wikipedia.org/wiki/Gettext" target="_blank">Gettext</a> and Gettext-like solutions, sightly changing a string breaks the link between the original text and the translated one. For Gettext, <a href="http://www.poedit.net/" target="_blank">Poedit</a> has a fuzzy matching algorithm to help the translator in the process of updating your translations, but you can&#8217;t expect much from fuzziness.
 
@@ -69,4 +69,4 @@ This was just a glimpse. The list of things to consider is endless, things like 
 
 It&#8217;s important that you know that **writing truly international software is hard**. It requires dedication and  specific knowledge on this topic. Writing software for the world requires an open mind.
 
- [1]: http://blog.istepaniuk.com/wp-content/uploads/rosettastone.png
+ [1]: /img/rosetta-stone.png

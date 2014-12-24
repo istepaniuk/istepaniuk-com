@@ -26,7 +26,7 @@ tags:
   </p>
   
   <p>
-    <a href="http://blog.istepaniuk.com/wp-content/uploads/qualcom-b2g.jpg"><img class="alignleft size-medium wp-image-37" title="Qualcom's B2G Prototype" src="http://blog.istepaniuk.com/wp-content/uploads/qualcom-b2g-269x300.jpg" alt="Qualcom's B2G Prototype" width="269" height="300" /></a><br /> <strong>Everything</strong> you see here is HTML5 based. The first thing that came to my mind during my short test call was &#8220;Hey! I&#8217;m calling you from a web browser!&#8221;. You can also see it working on <a href="http://www.youtube.com/watch?v=Q2NvLmmhOM8" target="_blank">this video</a>.
+    <a href="/img/qualcom-b2g.jpg"><img class="alignleft size-medium wp-image-37" title="Qualcom's B2G Prototype" src="/img/qualcom-b2g-269x300.jpg" alt="Qualcom's B2G Prototype" width="269" height="300" /></a><br /> <strong>Everything</strong> you see here is HTML5 based. The first thing that came to my mind during my short test call was &#8220;Hey! I&#8217;m calling you from a web browser!&#8221;. You can also see it working on <a href="http://www.youtube.com/watch?v=Q2NvLmmhOM8" target="_blank">this video</a>.
   </p>
   
   <p>

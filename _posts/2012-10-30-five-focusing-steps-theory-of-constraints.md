@@ -31,6 +31,6 @@ Assuming the goal of a system and its measurements have been defined, the five s
 
 The game consisted in 4 iterations of 260 seconds (representing a year of working days) in which each team of five people formed a production chain of paper airplanes. At the end of each iteration, we made changes to the production process based on the first four focusing steps, then we analyzed the production throughput. (in this case, how much money we have made selling good airplanes, or lost making bad or incomplete airplanes).
 
-<img class="alignleft size-full wp-image-240" title="Masa K. Maeda at the CAS2012 in Cáceres, Spain." src="http://blog.istepaniuk.com/wp-content/uploads/IMG_20121026_102704.jpg" alt="Masa K. Maeda at the CAS2012 in Cáceres, Spain." width="494" height="369" />
+<img class="alignleft size-full wp-image-240" title="Masa K. Maeda at the CAS2012 in Cáceres, Spain." src="/img/IMG_20121026_102704.jpg" alt="Masa K. Maeda at the CAS2012 in Cáceres, Spain." width="494" height="369" />
 
 I am looking forward to try this out in our company soon!
