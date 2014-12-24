@@ -18,7 +18,7 @@ tags:
 ---
 The following very simple T-SQL query will return the average value for all values in the *Rating* column:
 
-```tsql
+```sql
 SELECT AVG(Rating) AS AvgRating FROM CarRating;
 ```
 
@@ -32,7 +32,7 @@ var avgRating = Ctx.CarRatings.Select(x => x.Rating).Average();
 
 In the following example, we select an additional aggregate to get the maximum value of the whole Rating column in addition to the average:
 
-```tsql
+```sql
 SELECT AVG(Rating) AS Average, MAX(Rating) AS Maximum FROM CarRating;
 ```
 
