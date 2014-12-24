@@ -67,7 +67,7 @@ FROM [Banana] AS [t0]
 
 If there are any rows with NULL IsYelow, this code will will generate an &#8220;`InvalidOperationException: The null value cannot be assigned to a member with type System.Boolean which is a non-nullable value type.`&#8221; This happens because the  CASE will fall through the ELSE clause for any NULL value, thus returning a NULL in the result set, unasignable to our regular non-nullable boolean.
 
-Note that the condition `[t0].[IsYellow] = @p0, `where *@p0* is *true* and *[IsYellow]* is *NULL*, is neither true nor false according to the SQL 92 standard, this is the behavior when ** ANSI_NULLS** are are set to **ON**, wich is the default and will be actually forced ON in next versions of the MS SQL Server.
+Note that the condition `[t0].[IsYellow] = @p0`, where `@p0` is `true` and `[IsYellow]` is `NULL`, is neither true nor false according to the SQL 92 standard, this is the behavior when `ANSI_NULLS` are are set to `ON`, wich is the default and will be actually forced `ON` in next versions of the MS SQL Server.
 
 The last option will work as expected. For example:
 
