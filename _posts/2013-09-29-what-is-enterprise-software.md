@@ -25,7 +25,7 @@ The English Wikipedia has a fairly good article on what [Enterprise Software][2]
 So, next time you hear &#8220;Enterprise Software&#8221;, **try not to think about the dark side**, let&#8217;s recover the term.
 
 <div id="attachment_551" style="width: 610px" class="wp-caption alignnone">
-  <a href="http://www.thinkgeek.com/product/e732/"><img class="size-full wp-image-551" alt="Darkside" src="/img/darkside-2.jpg" width="600" height="600" /></a>
+  <a href="http://www.thinkgeek.com/product/e732/"><img class="size-full wp-image-551" alt="Darkside" src="/img/dark-side.jpg" width="600" height="600" /></a>
   
   <p class="wp-caption-text">
     <span style="color: #aaa;">This image copyright is owned by ThinkGeek, it is used here to represent and link to their product.<br />This site has no affiliation with ThinkGeek whatsoever.</span>
