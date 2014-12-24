@@ -20,7 +20,7 @@ layout: default
           dsq.type = 'text/javascript'; 
           dsq.async = true;
           dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          dsq.disqus_url = {{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}
+          dsq.disqus_url = {{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }};
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
   </script>
