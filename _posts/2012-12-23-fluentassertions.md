@@ -46,7 +46,8 @@ public void ReturnsYellowForBananas(
     var result = service.GetColorOf(new Banana());
 
     result.Should().Be(Color.Yellow);
-}</pre>
+}
+```
 
 ## Exception checking
 
@@ -60,7 +61,8 @@ public void ThrowsAnExceptionIfItIsNotAFruit()
     var service = new FruitColorService();
 
     var result = service.GetColorOf(new Tomato());
-}</pre>
+}
+```
 
 To become the following snippet. I preffer this way because it keeps the *arrange, act, assert* form:
 
@@ -81,7 +83,8 @@ public void ThrowsAnExceptionIfItIsNotAFruit()
     var service = new FruitColorService();
     Action action = () => service.GetColorOf(new Tomato());
     action.ShouldThrow&lt;InvalidFruitException>();
-}</pre>
+}
+```
 
 I preffer the FluentAssertions way, but note that NUnit also has it&#8217;s fluent API for this purpose, using *Assert.That* in this case. the last two lines would become:
 
@@ -90,14 +93,16 @@ TestDelegate test = () => service.GetColorOf(new Tomato());
 
 Assert.That(test, Throws.Exception
       .TypeOf&lt;InvalidFruitException>());
-</pre>
+
+```
 
 ## When something goes wrong
 
 In contrast to the Microsoft *TestTools.Assert*, both FluentAssertions and NUnit try hard to make the error message as clear as possible, when a test fails you certainly want to know what is happening and not just that it broke plus a meaningless line number. This is true specially if you are not on the IDE where you can just click-and-go to the ofending test, but reading a report from your <a target="_new" href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> server. For the second test in this post, FluentAssertions would print out something like: 
 
-<pre>Expected object to be Color [Yellow], but found Color [Green].
-</pre>
+```
+Expected object to be Color [Yellow], but found Color [Green].
+```
 
 ## Much more
 

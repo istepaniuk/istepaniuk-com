@@ -23,7 +23,8 @@ bool? nullableBool = true;
 var option1 = nullableBool == true;
 var option2 = nullableBool.Equals(true)
 var option3 = nullableBool.HasValue &#038;&#038; nullableBool.Value;
-var option4 = nullableBool ?? false;</pre>
+var option4 = nullableBool ?? false;
+```
 
 All options return *true* in this case, *false* for `nullableBool = false;` and also *false* for `nullableBool = null;`
 
@@ -37,7 +38,8 @@ Consider a table in Microsoft SQL Server, with a *nullable* bit column, like thi
 CREATE TABLE [dbo].[Banana] (
  [Id] int,
  [IsYellow] bit NULL,
-)</pre>
+)
+```
 
 I will not get into whether you should have *bit NULL* columns or not (you probably shouldn&#8217;t) but if you do, and you are using LINQ to SQL to query your RDBMS, your generated ***Banana*** entity will have an*** IsYellow*** property, of  ***bool? ***C#type***. ***Makes sense!***  
 ***
@@ -49,7 +51,8 @@ ctx.Bananas.Select(x => new
                       { 
                           Id = x.Id,
                           IsYellow = x.IsYellow == true
-                      });</pre>
+                      });
+```
 
 &#8230; but it will generate the following **ANSI_NULL OFF** dependent T-SQL code:
 
@@ -60,7 +63,8 @@ SELECT [t0].[Id],
         WHEN NOT ([t0].[IsYellow] = @p0) THEN 0
         ELSE NULL
      END) AS [IsYellow]
-FROM [Banana] AS [t0]</pre>
+FROM [Banana] AS [t0]
+```
 
 If there are any rows with NULL IsYelow, this code will will generate an &#8220;`InvalidOperationException: The null value cannot be assigned to a member with type System.Boolean which is a non-nullable value type.`&#8221; This happens because the  CASE will fall through the ELSE clause for any NULL value, thus returning a NULL in the result set, unasignable to our regular non-nullable boolean.
 
@@ -73,13 +77,15 @@ ctx.Bananas.Select(x => new
                       { 
                           Id = x.Id,
                           IsYellow = x.IsYellow ?? false
-                      });</pre>
+                      });
+```
 
 Would generate a safer NULL checking T-SQL code, like:
 
 ```sql
 SELECT [t0].[Id], COALESCE([t0].[IsYellow],@p0) AS [IsYellow]
-FROM [Banana] AS [t0]</pre>
+FROM [Banana] AS [t0]
+```
 
 You may also want to read:
 

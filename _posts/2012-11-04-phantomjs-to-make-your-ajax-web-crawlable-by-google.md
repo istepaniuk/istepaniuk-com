@@ -31,11 +31,15 @@ If most of the HTML content is generated with the server-side tech (like in ASP.
 
 Nowadays you can count that JavaScript will be there for you when the user loads the site, but what about the search engine crawlers? Fortunately, in 2009 <a href="https://developers.google.com/webmasters/ajax-crawling/docs/specification" target="_blank">Google defined a standard</a>, which latter Bing (and thus Yahoo) also supported in 2011. It basically defines a bidirectional mapping that is applied to every URL containing #!, allowing a link to:
 
-<pre>example.com/profile#!/jdoe</pre>
+```
+example.com/profile#!/jdoe
+```
 
 To become a GET request for:
 
-<pre>example.com/profile?_escaped_fragment_=%2fjdoe</pre>
+```
+example.com/profile?_escaped_fragment_=%2fjdoe
+```
 
 That new URL is what the crawler will actually request when encountering and following a link with &#8216;#!&#8217; in the anchor fragment.  This solves an important part of the problem, but we still need to generate an HTML snapshot for the crawler to download, parse, and go on. How?&#8230;
 

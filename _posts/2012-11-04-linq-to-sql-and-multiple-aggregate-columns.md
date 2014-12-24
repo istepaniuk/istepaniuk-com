@@ -19,26 +19,30 @@ tags:
 The following very simple T-SQL query will return the average value for all values in the *Rating* column:
 
 ```tsql
-SELECT AVG(Rating) AS AvgRating FROM CarRating;</pre>
+SELECT AVG(Rating) AS AvgRating FROM CarRating;
+```
 
 Doing this in LINQ to SQL is quite trivial; The *Average* method returns the average from the numeric sequence:
 
 ```javascript
-var avgRating = Ctx.CarRatings.Select(x => x.Rating).Average();</pre>
+var avgRating = Ctx.CarRatings.Select(x => x.Rating).Average();
+```
 
 ## The problem:
 
 In the following example, we select an additional aggregate to get the maximum value of the whole Rating column in addition to the average:
 
 ```tsql
-SELECT AVG(Rating) AS Average, MAX(Rating) AS Maximum FROM CarRating;</pre>
+SELECT AVG(Rating) AS Average, MAX(Rating) AS Maximum FROM CarRating;
+```
 
 In this case however, writing a LINQ to SQL equivalent is not that easy, one option would be splitting the query in two LINQ sentences. This is the most readable way to express what we want (and I like that), but hits the database twice and in some circumstances, specially if your table is big, you may not be able to live with that.
 
 ```javascript
 var avgRating = Ctx.CarRatings.Select(x => x.Rating).Average();
 var maxRating = Ctx.CarRatings.Select(x => x.Rating).Max();
-// Voila</pre>
+// Voila
+```
 
 ## The hack:
 
@@ -53,7 +57,8 @@ var ratings = Ctx.CarRatings
                       Max = r.Max(x => x.Rating)
                     })
                  .FirstOrDefault();
-// Voila (WTF!)</pre>
+// Voila (WTF!)
+```
 
 This works, but remember that *good code is readable code*, naming the .GroupBy() lambda with something horrible like *uselessConstantThatAllowsSelectingTwo-AggregateColumnsWithoutHittingTheDbTwice*, is better that breaking the WTF-o-meter in a code-review or future maintenance. A comment may also be opportune in this case, perhaps even a link to this post ;)
 
