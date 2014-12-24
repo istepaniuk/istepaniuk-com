@@ -37,7 +37,8 @@ public void ReturnsYellowForBananas()
 
 Into something like this:
 
-<pre lang="csharp">[Test]
+```csharp
+[Test]
 public void ReturnsYellowForBananas(
 {
     var service = new FruitColorService();
@@ -51,7 +52,8 @@ public void ReturnsYellowForBananas(
 
 It also allows for this kind of exception checking (here using the *Microsoft.Visual.Studio. UnitTesting* namespace instead of NUnit like in the previous examples):
 
-<pre lang="csharp">[TestMethod()]
+```csharp
+[TestMethod()]
 [ExpectedException(typeof(InvalidFruitException))]
 public void ThrowsAnExceptionIfItIsNotAFruit()
 {
@@ -72,7 +74,8 @@ public void ThrowsAnExceptionIfItIsNotAFruit()
 }
 ```
 
-<pre lang="csharp">[TestMethod()]
+```csharp
+[TestMethod()]
 public void ThrowsAnExceptionIfItIsNotAFruit()
 {
     var service = new FruitColorService();
@@ -82,7 +85,8 @@ public void ThrowsAnExceptionIfItIsNotAFruit()
 
 I preffer the FluentAssertions way, but note that NUnit also has it&#8217;s fluent API for this purpose, using *Assert.That* in this case. the last two lines would become:
 
-<pre lang="csharp">TestDelegate test = () => service.GetColorOf(new Tomato());
+```csharp
+TestDelegate test = () => service.GetColorOf(new Tomato());
 
 Assert.That(test, Throws.Exception
       .TypeOf&lt;InvalidFruitException>());

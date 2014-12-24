@@ -18,7 +18,8 @@ tags:
 
 Testing if a nullable boolean is *true* is quite simple in C#, there are many ways, sorted here in my preference order.
 
-<pre lang="csharp">bool? nullableBool = true;
+```csharp
+bool? nullableBool = true;
 var option1 = nullableBool == true;
 var option2 = nullableBool.Equals(true)
 var option3 = nullableBool.HasValue &#038;&#038; nullableBool.Value;
@@ -32,7 +33,8 @@ However, when using this expressions is labmdas inside a LINQ to SQL projection 
 
 Consider a table in Microsoft SQL Server, with a *nullable* bit column, like this
 
-<pre lang="sql">CREATE TABLE [dbo].[Banana] (
+```sql
+CREATE TABLE [dbo].[Banana] (
  [Id] int,
  [IsYellow] bit NULL,
 )</pre>
@@ -42,7 +44,8 @@ I will not get into whether you should have *bit NULL* columns or not (you proba
 
 The following simplified code, though a little bit pointless in this case, is a perfectly valid situation if you wanted to avoid a *nullable* in your DTO, or you are projecting a boolean for any other reason.
 
-<pre lang="csharp">ctx.Bananas.Select(x => new 
+```csharp
+ctx.Bananas.Select(x => new 
                       { 
                           Id = x.Id,
                           IsYellow = x.IsYellow == true
@@ -50,7 +53,8 @@ The following simplified code, though a little bit pointless in this case, is a 
 
 &#8230; but it will generate the following **ANSI_NULL OFF** dependent T-SQL code:
 
-<pre lang="sql">SELECT [t0].[Id], 
+```sql
+SELECT [t0].[Id], 
     (CASE 
         WHEN [t0].[IsYellow] = @p0 THEN 1
         WHEN NOT ([t0].[IsYellow] = @p0) THEN 0
@@ -64,7 +68,8 @@ Note that the condition `[t0].[IsYellow] = @p0, `where *@p0* is *true* and *[Is
 
 The last option will work as expected. For example:
 
-<pre lang="csharp">ctx.Bananas.Select(x => new 
+```csharp
+ctx.Bananas.Select(x => new 
                       { 
                           Id = x.Id,
                           IsYellow = x.IsYellow ?? false
@@ -72,7 +77,8 @@ The last option will work as expected. For example:
 
 Would generate a safer NULL checking T-SQL code, like:
 
-<pre lang="sql">SELECT [t0].[Id], COALESCE([t0].[IsYellow],@p0) AS [IsYellow]
+```sql
+SELECT [t0].[Id], COALESCE([t0].[IsYellow],@p0) AS [IsYellow]
 FROM [Banana] AS [t0]</pre>
 
 You may also want to read:
