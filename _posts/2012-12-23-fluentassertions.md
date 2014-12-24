@@ -26,7 +26,6 @@ FluentAssertions allows us to convert something like this:
 
 ```csharp
 [Test]
-
 public void ReturnsYellowForBananas()
 {
     var service = new FruitColorService();
@@ -39,7 +38,7 @@ Into something like this:
 
 ```csharp
 [Test]
-public void ReturnsYellowForBananas(
+public void ReturnsYellowForBananas()
 {
     var service = new FruitColorService();
 
