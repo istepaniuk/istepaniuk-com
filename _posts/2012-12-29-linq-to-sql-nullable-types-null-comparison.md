@@ -22,13 +22,13 @@ Testing if a nullable boolean is *true* is quite simple in C#, there are many wa
 bool? nullableBool = true;
 var option1 = nullableBool == true;
 var option2 = nullableBool.Equals(true)
-var option3 = nullableBool.HasValue &#038;&#038; nullableBool.Value;
+var option3 = nullableBool.HasValue && nullableBool.Value;
 var option4 = nullableBool ?? false;
 ```
 
-All options return *true* in this case, *false* for `nullableBool = false;` and also *false* for `nullableBool = null;`
+All options return `true` in this case, `false` for `nullableBool = false;` and also *false* for `nullableBool = null;`
 
-However, when using this expressions is labmdas inside a LINQ to SQL projection **they will behave differently!** LINQ to SQL it is not smart enough to translate to T-SQL in a way that the current **ANSI_NULLS** setting does not affect the query result. To avoid `NULL = 1` comparisons, **don&#8217;t use option1 or option2 there!**
+However, when using this expressions is labmdas inside a LINQ to SQL projection **they will behave differently!** LINQ to SQL it is not smart enough to translate to T-SQL in a way that the current `ANSI_NULLS` setting does not affect the query result. To avoid `NULL = 1` comparisons, **don't use option1 or option2 there!**
 
 ## Huh? Please elaborate
 
@@ -36,29 +36,28 @@ Consider a table in Microsoft SQL Server, with a *nullable* bit column, like thi
 
 ```sql
 CREATE TABLE [dbo].[Banana] (
- [Id] int,
- [IsYellow] bit NULL,
+  [Id] int,
+  [IsYellow] bit NULL,
 )
 ```
 
-I will not get into whether you should have *bit NULL* columns or not (you probably shouldn&#8217;t) but if you do, and you are using LINQ to SQL to query your RDBMS, your generated ***Banana*** entity will have an*** IsYellow*** property, of  ***bool? ***C#type***. ***Makes sense!***  
-***
+I will not get into whether you should have `bit NULL` columns or not (you probably shouldn't) but if you do, and you are using LINQ to SQL to query your RDBMS, your generated `Banana` entity will have an `IsYellow` property, of  `bool?` C# type. **Makes sense!**
 
 The following simplified code, though a little bit pointless in this case, is a perfectly valid situation if you wanted to avoid a *nullable* in your DTO, or you are projecting a boolean for any other reason.
 
 ```csharp
-ctx.Bananas.Select(x => new 
-                      { 
-                          Id = x.Id,
-                          IsYellow = x.IsYellow == true
-                      });
+ctx.Bananas.Select(x => new
+                  {
+                      Id = x.Id,
+                      IsYellow = x.IsYellow == true
+                  });
 ```
 
-&#8230; but it will generate the following **ANSI_NULL OFF** dependent T-SQL code:
+but it will generate the following `ANSI_NULL OFF` dependent T-SQL code:
 
 ```sql
-SELECT [t0].[Id], 
-    (CASE 
+SELECT [t0].[Id],
+    (CASE
         WHEN [t0].[IsYellow] = @p0 THEN 1
         WHEN NOT ([t0].[IsYellow] = @p0) THEN 0
         ELSE NULL
@@ -73,11 +72,11 @@ Note that the condition `[t0].[IsYellow] = @p0, `where *@p0* is *true* and *[Is
 The last option will work as expected. For example:
 
 ```csharp
-ctx.Bananas.Select(x => new 
-                      { 
-                          Id = x.Id,
-                          IsYellow = x.IsYellow ?? false
-                      });
+ctx.Bananas.Select(x => new
+                  {
+                      Id = x.Id,
+                      IsYellow = x.IsYellow ?? false
+                  });
 ```
 
 Would generate a safer NULL checking T-SQL code, like:
@@ -91,4 +90,3 @@ You may also want to read:
 
   * <a title="The SET ANSI_NULLS Reference in the MSDN" href="http://msdn.microsoft.com/en-us/library/ms188048.aspx" target="_blank">The SET ANSI_NULLS Reference in the MSDN</a>
 
-&nbsp;
