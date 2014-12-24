@@ -47,7 +47,7 @@ That new URL is what the crawler will actually request when encountering and fol
 
 The idea is to do for the crawler the job that it doesn&#8217;t want to do on it&#8217;s own, here is where <a href="http://phantomjs.org/" target="_blank">PhantomJS</a> comes in. *PhantomJS* is a full stack headless browser based on WebKit. Having a fast JavaScript enabled &#8220;browser&#8221; on the *backend* allows us to remap the Google bot request back to the #! format, and pass it to *PhantomJS*. The command-line process will return a nice HTML snapshot to the crawler, just as the users would see on their real browsers, and it will in turn contain more valid* #!* links to parse, convert and follow so the process goes on.
 
-[<img class="wp-image-255 alignnone" title="Crawlable AJAX web using PhantomJS" src="/img/ajaxcrawl.jpg" alt="Crawlable AJAX web using PhantomJS" />][1]
+[<img class="wp-image-255 alignnone" title="Crawlable AJAX web using PhantomJS" src="/img/ajax-crawl.jpg" alt="Crawlable AJAX web using PhantomJS" />][1]
 
 Depending on your JavaScript, generating a snapshot on the server-side is probably processor-intensive, but remember that it will only be used by the search engine crawlers, and that you will have absolute control over making a snapshot or just returning the cached HTML from a previous run, which will be actually really fast.
 
@@ -55,4 +55,4 @@ Note that any content meant to be indexed needs to be accessible through an *<a>
 
 &nbsp;
 
- [1]: /img/ajaxcrawl.jpg
+ [1]: /img/ajax-crawl.jpg
