@@ -4,6 +4,7 @@ layout: default
 <div class="row">
   <div class="medium-8 columns">
     <h3 class="subheader">{{ page.description }}</h3>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{page.author}}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {{ content }}
   </div>
 </div>
