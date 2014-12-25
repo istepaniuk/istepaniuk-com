@@ -10,4 +10,29 @@ twitter_username: istepaniuk
 github_username:  istepaniuk
 
 markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
 highlighter: pygments
+
+
+noita:
+  name: Serious Technobabble
+  description: Iván Stepaniuk's blog about software craftsmanship
+  author:
+    name: Iván Stepaniuk
+    url: http://github.com/istepaniuk
+  lang: en
+  favicons:
+    - /favicon.ico
+  topbar:
+    toggle: Menu
+    right:
+      - name: About
+        url: /about/
+      - name: Book List
+        url: /book-list/
+      - name: Talks & Events
+        url: /talks-events/
+      - name: Repository
+        url: https://github.com/istepaniuk/istepaniuk-com
+        class: small button
