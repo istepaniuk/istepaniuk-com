@@ -3,12 +3,6 @@ title: List of speakers at the Agile Testing Days 2012 conference, and their Twi
 author: Iván Stepaniuk
 layout: post
 permalink: /twitter-for-speakers-at-the-agile-testing-days-2012-conference/
-lacandsnw_postmessage:
-  - 
-lacandsnw_twitterhandle:
-  - 
-lacandsnw_twitterhash:
-  - 
 categories:
   - Agile
   - Testing
