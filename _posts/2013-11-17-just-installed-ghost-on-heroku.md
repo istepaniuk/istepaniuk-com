@@ -3,10 +3,6 @@ title: Just installed Ghost on Heroku!
 author: Iván Stepaniuk
 layout: post
 permalink: /just-installed-ghost-on-heroku/
-lacandsnw_postmessage:
-  - 
-lacandsnw_twitterhandle:
-  - 
 categories:
   - Idle
   - JavaScript
@@ -25,6 +21,8 @@ In my search, I&#8217;ve found <a href="http://www.tryghost.org" target="_blank"
 I always liked the heroku concept, and my current <a href="http://www.quijost.com" target="_blank">hosting</a> does not support Node.JS anyway (though it does suport Python and Ruby!)
 
 Editing text on Ghost is just awesome! Writting in markdown with side-by-side instant preview, is just awesome. Check it out at their site, or watch the video.
+
+<p><iframe src="//www.kickstarter.com/projects/johnonolan/ghost-just-a-blogging-platform/widget/video.html" height="480" width="640" frameborder="0" scrolling="no"></iframe></p>
 
 Ghost is free and open source, they also plan to have their own hosting service, similar to wordpress.org, I guess.
 

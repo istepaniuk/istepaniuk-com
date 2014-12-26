@@ -3,10 +3,6 @@ title: Looking back, my first web page
 author: Iván Stepaniuk
 layout: post
 permalink: /looking-back-my-first-web-page/
-lacandsnw_postmessage:
-  - 
-lacandsnw_twitterhandle:
-  - 
 categories:
   - Idle
 tags:
@@ -78,19 +74,19 @@ The dark ages of web design. Frames.
 
 At some point in time I switched to Internet Explorer 4, and that came with Microsoft FrontPage Express 2.0, it was a horrible thing, but using the WYSIWYG editor and then tinkering with the generated markup seemed like a good way to start.
 
-The layout was constructed with `<TABLE>` elements, a common practice back then, and all the colored text in the HTML was made with`<FONT>` tags, like this:
+The layout was constructed with `<TABLE>` elements, a common practice back then, and all the colored text in the HTML was made with `<FONT>` tags, like this:
 
-```
-<span style="color: #8080ff; font-size: medium;">
+```html
+<FONT size="3" color="#8080ff">
   These roms are <b>not working.</b>
-</span>
+</FONT>
 ```
 
-Changing anything was really painful. There was no JavaScript except for some `window.status` magic, and all the forms pointed to <em>Geocities</em> form-to-mail CGI. Try that nowadays and it will fill your inbox with spam in just a few minutes. Learning some CSS took many more years.
+Changing anything was really painful. There was no JavaScript except for some `window.status` magic, and all the forms pointed to *Geocities* form-to-mail CGI. Try that nowadays and it will fill your inbox with spam in just a few minutes. Learning some CSS took many more years.
 
 ### Don't panic!
 I used one of these too:
-<a href="/img/underconstruction.gif"><img class="alignleft  wp-image-80" style="margin-left: 30px; margin-right: 30px;" title="underconstruction" alt="" src="/img/underconstruction.gif" width="38" height="38" />
+<a href="/img/underconstruction.gif"><img class="alignleft  wp-image-80" style="margin-left: 30px; margin-right: 30px;" title="underconstruction" alt="" src="/img/underconstruction.gif" width="38" height="38" /></a>
 
  [1]: /img/Screenshot-at-2012-04-10-232911.png
  [2]: http://en.wikipedia.org/wiki/Engrish

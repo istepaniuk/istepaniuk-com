@@ -3,12 +3,6 @@ title: Using PhantomJS to make your AJAX web applications crawlable by Google
 author: Iván Stepaniuk
 layout: post
 permalink: /phantomjs-to-make-your-ajax-web-crawlable-by-google/
-lacandsnw_postmessage:
-  - 
-lacandsnw_twitterhandle:
-  - 
-lacandsnw_twitterhash:
-  - 
 categories:
   - JavaScript
 tags:
@@ -51,8 +45,7 @@ The idea is to do for the crawler the job that it doesn&#8217;t want to do on it
 
 Depending on your JavaScript, generating a snapshot on the server-side is probably processor-intensive, but remember that it will only be used by the search engine crawlers, and that you will have absolute control over making a snapshot or just returning the cached HTML from a previous run, which will be actually really fast.
 
-Note that any content meant to be indexed needs to be accessible through an *<a>* element with a proper #! formated href, otherwise it can not be followed by the crawler.
+Note that any content meant to be indexed needs to be accessible through an `<a>` element with a proper #! formated href, otherwise it can not be followed by the crawler.
 
-&nbsp;
 
  [1]: /img/ajax-crawl.jpg
