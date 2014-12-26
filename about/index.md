@@ -18,16 +18,27 @@ Mail me at istepaniuk@ Google&#8217;s well known free email service.
 
 ### You may also want to check out my profiles on these sites:
 
-[<img src="/img/icons/twitter.png" width="43" height="43" />][2][<img src="/img/icons/coderwall.png" width="44" height="44" />][3][<img src="/img/icons/linkedin.png" width="43" height="43" />][4][<img src="/img/icons/github.png" width="44" height="44" />][5][<img style="margin-top: 6px;" alt="Lanyrd" src="/img/icons/lanyrd.png" width="39" height="39" />][6]<a href="http://www.xing.com/profile/Ivan_Stepaniuk" target="_blank"><img style="margin-top: 4px;" alt="Iván Stepaniuk on XING" src="/img/icons/xing.png" width="44" height="44" /></a><a title="StackOverflow " href="http://stackoverflow.com/users/888525/istepaniuk" target="_blank"><img style="margin-bottom: 0px; margin-top: 5px;" src="/img/icons/stack-overflow.png" width="41" height="41" /></a>
+[<img alt="Twitter" src="/img/icons/twitter.png" width="43" height="43" />][2]
+[<img alt="Coderwall" src="/img/icons/coderwall.png" width="44" height="44" />][3]
+[<img alt="LinkedIn" src="/img/icons/linkedin.png" width="43" height="43" />][4]
+[<img alt="Gigthub" src="/img/icons/github.png" width="44" height="44" />][5]
+[<img alt="Layrd" style="margin-top: 6px;" src="/img/icons/lanyrd.png" width="39" height="39" />][6]
+[<img alt="Xing" style="margin-top: 4px;" src="/img/icons/xing.png" width="44" height="44" />][7]
+[<img alt="Stack Overflow" style="margin-bottom: 0px; margin-top: 5px;" src="/img/icons/stack-overflow.png" width="41" height="41" />][8]
 
-<a href="http://stackoverflow.com/users/888525/istepaniuk" target="_blank"><img title="profile for istepaniuk on Stack Exchange, a network of free, community-driven Q&A sites" alt="profile for istepaniuk on Stack Exchange, a network of free, community-driven Q&A sites" src="http://stackexchange.com/users/flair/477181.png" width="208" height="58" /><br /> </a>  
-Or just look me up on Google:  
+### Also on Stack Overflow
+[<img title="Profile for istepaniuk on Stack Exchange, a network of free, community-driven Q&amp;A sites" alt="profile for istepaniuk on Stack Exchange, a network of free, community-driven Q&amp;A sites" src="http://stackexchange.com/users/flair/477181.png" width="208" height="58" />][8]
+
+### Or just look me up on Google
 <a href="http://www.google.com/search?q=Iván+Stepaniuk" target="_blank">http://www.google.com/search?q=Iván+Stepaniuk</a>
 
 
  [1]: http://agilemanifesto.org/ "Agile Manifesto"
- [2]: http://twitter.com/istepaniuk
- [3]: http://coderwall.com/istepaniuk
- [4]: http://www.linkedin.com/in/istepaniuk
- [5]: https://github.com/istepaniuk
- [6]: http://lanyrd.com/profile/istepaniuk/
+ [2]: http://twitter.com/istepaniuk "Iván Stepaniuk on Twitter"
+ [3]: http://coderwall.com/istepaniuk "Iván Stepaiuk on Coderwall"
+ [4]: http://www.linkedin.com/in/istepaniuk "Iván Stepaniuk LinkedIn profile"
+ [5]: https://github.com/istepaniuk "Iván Stepaniuk Github profile"
+ [6]: http://lanyrd.com/profile/istepaniuk/ "Iván Stepaniuk Lanyrd profile"
+ [7]: http://www.xing.com/profile/Ivan_Stepaniuk
+ [8]: http://stackoverflow.com/users/888525/istepaniuk "Iván Stepaniuk on Stack Overflow"
+

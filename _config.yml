@@ -8,12 +8,19 @@ baseurl: ""
 url: "http://blog.istepaniuk.com"
 twitter_username: istepaniuk
 github_username:  istepaniuk
+exclude:
+  - Gruntfile.js
+  - LICENSE
+  - node_modules/
+  - README.md
 
 markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
 highlighter: pygments
 
+paginate: 5
+paginate_path: "page/:num/"
 
 noita:
   name: Serious Technobabble
@@ -22,8 +29,6 @@ noita:
     name: Iván Stepaniuk
     url: http://github.com/istepaniuk
   lang: en
-  favicons:
-    - /favicon.ico
   topbar:
     toggle: Menu
     right:
