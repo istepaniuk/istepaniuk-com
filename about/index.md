@@ -3,7 +3,7 @@ title: About Me
 author: Iván Stepaniuk
 layout: page
 ---
-![Iván Stepaniuk](/img/iván-stepaniuk.jpg)
+![Iván Stepaniuk](/img/ivan-stepaniuk.jpg)
 
 I am a software developer with a strong background in electronics and telecommunications. I have been writing software for more than fifteen years, in a wide variety of languages and platforms ranging  from Assembler to JavaScript and from 8bit micro-controllers to large web applications.
 
