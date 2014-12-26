@@ -6,15 +6,8 @@
   <title>{{ page.title }}{% if page.title != site.noita.name %} | {{ site.noita.name }} {% endif %}</title>
   {% include noita/robots.html %}
   {% include noita/meta-description.html %}
-  {% for favicon in site.noita.favicons %}
-    {% assign size = favicon | split: '-' | last | split: '.' | first %}
-    <link rel="icon"
-      sizes="{{ size }}x{{ size }}"
-      href="{{ favicon }}">
-    <link rel="apple-touch-icon"
-      sizes="{{ size }}x{{ size }}"
-      href="{{ favicon }}">
-  {% endfor %}
+  <link rel="icon" sizes="152x152" href="/img/favicon-152.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon-152.png">
 
   <link rel="alternate" href="/blog/feed.atom"
     title="{{ site.noita.name }}" type="application/atom+xml">
@@ -61,7 +54,7 @@
 
   <div class="row">
     <div class="column">
-      <h1>{{ page.title }}</h1>
+      <h1>{% if page.title != site.noita.name %}{{ page.title }} {% endif %}</h1>
     </div>
   </div>
 
@@ -71,11 +64,11 @@
     <div class="column">
       <hr>
     </div>
-    <div class="small-8 columns">
-      <p>©2014 <a href="http://penibelst.de/">Iván Stepaniuk</a>. Licensed under
-      <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a><br>
-      Powered by <a href="http://jekyllrb.com/">Jekyll</a> and the <a href="https://github.com/penibelst/jekyll-noita">Noita theme</a>, built with <a href="http://foundation.zurb.com/">Foundation</a>
-</p>
+    <div class="small-8 columns subheader">
+      ©2014 <a href="/about/">Iván Stepaniuk</a>. Licensed under
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a><br>
+      <small>Site powered by <a href="http://jekyllrb.com/">Jekyll</a> and the <a href="https://github.com/penibelst/jekyll-noita">Noita theme</a>, built with <a href="http://foundation.zurb.com/">Foundation</a>
+      </small>
     </div>
     <div class="small-4 columns">
       <p class="text-right menu-icon"><a href="#topbar">&#x25B2;</a></p>
