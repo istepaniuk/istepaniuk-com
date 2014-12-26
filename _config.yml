@@ -2,8 +2,7 @@ destination: /var/www/blog
 permalink: /:title
 title: Serious Technobabble
 email: istepaniuk@gmail.com
-description: >
-  Iván Stepaniuk's blog about software craftsmanship
+description: Iván Stepaniuk's blog about software craftsmanship
 baseurl: ""
 url: "http://blog.istepaniuk.com"
 twitter_username: istepaniuk
@@ -18,6 +17,8 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
 highlighter: pygments
+
+google_analytics_id: "UA-30612993-1"
 
 paginate: 5
 paginate_path: "page/:num/"
@@ -41,3 +42,11 @@ noita:
       - name: Repository
         url: https://github.com/istepaniuk/istepaniuk-com
         class: small button
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true

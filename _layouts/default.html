@@ -6,6 +6,8 @@
   <title>{{ page.title }}{% if page.title != site.noita.name %} | {{ site.noita.name }} {% endif %}</title>
   {% include noita/robots.html %}
   {% include noita/meta-description.html %}
+  {% include ograph.html %}
+  {% include google-analytics.html %}
   <link rel="icon" sizes="152x152" href="/img/favicon-152.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon-152.png">
 
@@ -64,13 +66,16 @@
     <div class="column">
       <hr>
     </div>
+    <div class="small-2 columns show-for-medium-up">
+      <img style="padding:10px;" alt="cc-by-sa" src="/img/cc-by-sa.png" class="right center">
+    </div>
     <div class="small-8 columns subheader">
       ©2014 <a href="/about/">Iván Stepaniuk</a>. Licensed under
         <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a><br>
       <small>Site powered by <a href="http://jekyllrb.com/">Jekyll</a> and the <a href="https://github.com/penibelst/jekyll-noita">Noita theme</a>, built with <a href="http://foundation.zurb.com/">Foundation</a>
       </small>
     </div>
-    <div class="small-4 columns">
+    <div class="small-2 columns">
       <p class="text-right menu-icon"><a href="#topbar">&#x25B2;</a></p>
     </div>
   </div>
