@@ -6,8 +6,7 @@
   <title>{{ page.title }}{% if page.title != site.noita.name %} | {{ site.noita.name }} {% endif %}</title>
   {% include noita/robots.html %}
   {% include noita/meta-description.html %}
-  {% include ograph.html %}
-  {% include google-analytics.html %}
+  {% include structured-data.html %}
   <link rel="icon" sizes="152x152" href="/img/favicon-152.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon-152.png">
 
@@ -19,7 +18,8 @@
   {% for stylesheet in site.noita.stylesheets %}
     <link rel="stylesheet" href="{{ stylesheet }}">
   {% endfor %}
-
+  {% include google-analytics.html %}
+  {% include google-plus.html %}
   <script src="/foundation/js/vendor/modernizr.js"></script>
 </head>
 <body>
