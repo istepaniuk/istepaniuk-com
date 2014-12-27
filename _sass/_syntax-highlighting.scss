@@ -7,12 +7,23 @@ $spacing-unit:     30px;
 /**
  * Syntax highlighting styles
  */
+
+pre code {
+    border-style: none;
+    padding: 0px;
+}
+
+pre {
+    @extend code;
+    margin-bottom: 40px;
+}
+
 .highlight {
     background: #fff;
     @extend %vertical-rhythm;
 
     .c     { color: #998; font-style: italic } // Comment
-    .err   { color: #a61717; background-color: #e3d2d2 } // Error
+    .err   { color: #a61717; } // Error
     .k     { font-weight: bold } // Keyword
     .o     { font-weight: bold } // Operator
     .cm    { color: #998; font-style: italic } // Comment.Multiline
@@ -71,3 +82,4 @@ $spacing-unit:     30px;
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
