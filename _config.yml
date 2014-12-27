@@ -26,7 +26,7 @@ paginate_path: "page/:num/"
 
 sass:
     sass_dir: _sass
-#    style: :compressed
+    style: :compressed
 
 noita:
   name: Serious Technobabble
