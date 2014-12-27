@@ -3,12 +3,6 @@ title: FluentAssertions
 author: Iván Stepaniuk
 layout: post
 permalink: /fluentassertions/
-lacandsnw_postmessage:
-  - 
-lacandsnw_twitterhandle:
-  - 
-lacandsnw_twitterhash:
-  - 
 categories:
   - .net
   - Testing
@@ -64,16 +58,6 @@ public void ThrowsAnExceptionIfItIsNotAFruit()
 ```
 
 To become the following snippet. I preffer this way because it keeps the *arrange, act, assert* form:
-
-```csharp
-[TestMethod()]
-public void ThrowsAnExceptionIfItIsNotAFruit()
-{
-    var service = new FruitColorService();
-    Action action = () => service.GetColorOf(new Tomato());
-    action.ShouldThrow&lt;InvalidFruitException>();
-}
-```
 
 ```csharp
 [TestMethod()]
