@@ -1,6 +1,3 @@
-[submodule "foundation"]
-	path = _sass/foundation
-	url = git@github.com:zurb/foundation.git
 [submodule "_sass/foundation"]
 	path = _sass/foundation
 	url = git@github.com:zurb/foundation.git
