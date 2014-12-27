@@ -4,13 +4,22 @@ layout: default
 <div class="row">
   <div class="medium-8 columns">
     <h3 class="subheader">{{ page.description }}</h3>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{page.author}}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="subheader post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{page.author}}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {{ content }}
   </div>
 </div>
-
 <div class="row">
-  <div id="disqus_thread"></div>
+  <hr>
+</div>
+<div class="row">
+  {% include author.html %}
+</div>
+<div class="row">
+  <hr>
+</div>
+<div class="row">
+  <div class="columns" id="disqus_thread"></div>
+  <style>.dsq-comment-header {white-space:normal!important;}</style>
   <script type="text/javascript">
       var disqus_shortname = 'istepaniuk';
       var disqus_url = '{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}';
@@ -23,5 +32,4 @@ layout: default
       })();
   </script>
   <noscript>Please enable JavaScript to view the comments.</noscript>
-
 </div>
