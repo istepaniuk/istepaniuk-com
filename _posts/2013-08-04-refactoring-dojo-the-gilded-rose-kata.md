@@ -15,15 +15,13 @@ tags:
 ---
 Last week Rafael de Castro ([@rafadc][1]) and I facilitated a <a title="Coding Dojos Are Great" href="/coding-dojos-are-great/" target="_blank">Coding Dojo</a> for the Madrid Software Craftsmanship <a title="Madrid Software Craftsmanship on Meetup" href="http://www.meetup.com/madswcraft/" target="_blank">meetup</a> group (219 members and growing every week!) in which we participate. The idea was to make a Dojo in which we could practice refactoring.
 
-<img class="size-full wp-image-516 " alt="Iván Stepaniuk standing in the back, and some Madrid Craftsmen and Craftswomen" src="/img/ivan-stepaniuk-dojo.jpg" width="600" height="450" />
-Myself in the back, standing. Some Madrid Craftsmen and Craftswomen at work!
+{% include figure.html caption="Iván Stepaniuk standing in the back, and some Madrid Craftsmen and Craftswomen at work!" src="/img/ivan-stepaniuk-dojo.jpg" %}
 
 It went pretty well! This is the second time we meet in the <a title="MediaLab Prado" href="http://medialab-prado.es/article/que_es" target="_blank">MediaLab Prado</a> in Madrid, a &#8220;citizen laboratory for the production, research and dissemination of cultural projects that explore collaborative forms of experimentation and learning that have emerged from digital networks.&#8221;, founded by the Madrid City Council, **COOL!**
 
 For the Dojo we have chosen a well known Kata called &#8220;Gilded Rose&#8221;, it is a very simple piece of software that updates the quality value of the items in a store following some simple business rules. The problem is that **the code sucks**, we are asked to add a new feature but the code is so horrible that you don&#8217;t even know where to start.
 
-<img class="size-large wp-image-515" alt="Rafael de Castro Facilitating a Refactoring Dojo" src="/img/rafa-de-castro-dojo.jpg" width="640" height="478" />
-Rafael de Castro (in the back, standing) Facilitating.
+{% include figure.html caption="Rafael de Castro Facilitating the Refactoring Dojo" src="/img/rafa-de-castro-dojo.jpg" %}
 
 We had limited time, so we choose JavaScript, that way nobody would have to install anything special on their computers, and everybody has a text editor and a browser to launch <a title="Jasmine" href="http://pivotal.github.io/jasmine" target="_blank">Jasmine</a>, right?. We distributed several pen drives with the same copy of the code plus a working test runner. And because we wanted to focus on the refactoring techniques I also included the tests, already passing.
 
