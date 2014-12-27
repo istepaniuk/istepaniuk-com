@@ -1,33 +1,32 @@
+#anchor-as-name: no  #?
+#break-before-br: yes
+char-encoding: utf8
+#doctype: omit
+#drop-empty-paras: no
+#fix-backslash: no
+#fix-bad-comments: no
+#fix-uri:no
+force-output: yes
+hide-comments: yes
+#hide-endtags: yes   #?
 indent: auto
 indent-spaces: 2
-break-before-br: yes
-tab-size: 2
-
-markup: no
-encoding: utf8
-wrap: 100
-wrap-sections: no
-tidy-mark: no
-
-anchor-as-name: no  #?
-doctype: omit
-drop-empty-paras: no
-fix-backslash: no
-fix-bad-comments: no
-fix-uri:no
-hide-endtags: yes   #?
-#input-xml: yes     #?
-join-styles: no
-literal-attributes: yes
-lower-literals: no
+##input-xml: yes     #?
+#join-styles: no
+#literal-attributes: yes
+#lower-literals: no
+#markup: no
 merge-divs: no
-merge-spans: no
-output-html: yes
-preserve-entities: yes
-quote-ampersand: no
-quote-nbsp: no
-show-body-only: auto
-
-force-output: yes
+#merge-spans: no
+#output-html: yes
+#preserve-entities: yes
 quiet: yes
-
+#quote-ampersand: no
+#quote-nbsp: no
+#show-body-only: auto
+tab-size: 2
+tidy-mark: no
+vertical-space: no
+wrap: 200
+wrap-sections: no
+write-back: yes
