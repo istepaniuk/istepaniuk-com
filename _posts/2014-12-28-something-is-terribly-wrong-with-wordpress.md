@@ -28,6 +28,7 @@ With all those hacks, the site can respond reasonably fast for the public, but t
 ### Questions
 
 Given that:
+
 * I have **less than 200KB** of written content.
 * I have less than 4MB of pictures.
 * The site gets an average of 100 daily sessions with only 1.2 views per sessions.
