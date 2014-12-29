@@ -53,4 +53,5 @@ The one hour+ commute to their offices proved painful compared to my 20 minute-i
 
 {% include figure.html src="/img/desksurfing-alea-big.jpg" caption="Guillermo Pascual, Iván Stepaniuk, Alberto Pérez, Eduardo Ferro" %}
 
-**Thanks **guys for opening your doors and for this excellent opportunity. Looking forward to have you DeskSurfing our offices soon!
+**Thanks** guys for opening your doors and for this excellent opportunity. Looking forward to have you DeskSurfing our offices soon!
+
