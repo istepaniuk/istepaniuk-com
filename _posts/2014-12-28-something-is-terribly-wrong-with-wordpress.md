@@ -34,6 +34,8 @@ Given that:
 * The site gets an average of 100 daily sessions with only 1.2 views per sessions.
 * It has very, very ocasional traffic bursts.
 
+Then:
+
 * Why do I need all these plugins?
 * A cache plugin? Why isn't it just fast enough for this?
 * A security plugin? Why isn't it secure enough?
