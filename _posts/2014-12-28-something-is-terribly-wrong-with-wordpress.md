@@ -7,13 +7,13 @@ categories:
   - Idle
 ---
 
-### WARNING: This is just a rant, and you should probably not read it.
+### WARNING: This is just a rant, probably you should not read it.
 
 This 2014 was a year of many changes, new company, new country, new house, all excellent excuses to stop writting posts! Lately, for these and other reasons I was not finding a lot of oportunities to write here. To make it even worse, every time I logged into my wordpress admin interface to write a draft or post, I remembered how hard Wordpress sucks. Really.
 
 Some years ago I decided to start blogging and went with Wordpress. It was the obvious choice, popular, and very easy to install and use. The problem is that what you get from **Wordpress out of the box is not good enough**, at least if you are anywhere close to serious about it.
 
-As soon as you go online the spam will start pouring down. The built-in comment system can drive you crazy when you have 1 real comment for every 1000, but that's easy, just spend half a day trying plugins until you find the one that does not cost you an eye and actually filters something.
+As soon as you go online the spam will start pouring down. The built-in comment system can drive you crazy when you have 1 real comment for every 5000, but that's easy, just spend half a day trying plugins until you find the one that does not cost you an eye and actually filters something.
 
 The same goes for social buttons, analytics, your twitter card, <strike>google authorship</strike>,... **Plugin magic!**. Do you want to add some code snippets to your posts? No problem, 3 or 4 plugins latter you will find something that does not completely destroy the theme or brings the whole server down.
 
@@ -39,7 +39,7 @@ Then:
 * Why do I need all these plugins?
 * A cache plugin? Why isn't it just fast enough for this?
 * A security plugin? Why isn't it secure enough?
-* Why the built-in comment system is not practical even for a small site?
+* Why is that the built-in comment system is not practical, even for a small site?
 * **Why do I need a full-fledged RDBMS to power a simple blog?**
 
 I just want to write some stuff, it shouldn't be so damn complicated.
