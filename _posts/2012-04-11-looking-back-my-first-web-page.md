@@ -86,7 +86,7 @@ Changing anything was really painful. There was no JavaScript except for some `w
 
 ### Don't panic!
 I used one of these too:
-<a href="/img/underconstruction.gif"><img class="alignleft  wp-image-80" style="margin-left: 30px; margin-right: 30px;" title="underconstruction" alt="" src="/img/underconstruction.gif" width="38" height="38" /></a>
+<a href="/img/underconstruction.gif"><img class="alignleft  wp-image-80" style="margin-left: 30px; margin-right: 30px;" title="underconstruction" alt="" src="/img/under-construction.gif" width="38" height="38" /></a>
 
  [1]: /img/Screenshot-at-2012-04-10-232911.png
  [2]: http://en.wikipedia.org/wiki/Engrish
