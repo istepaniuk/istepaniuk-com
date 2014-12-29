@@ -21,13 +21,7 @@ I&#8217;ve written a <a href="https://github.com/istepaniuk/jSend-Net" target="_
 
 Compressing and decompressing data is processor-hungry, beware that for certain small-sized chunks of data, as well as for data with a high level of entropy, it can be actually slower than sending the original uncompressed string.
 
-[<img class="alignleft  wp-image-66" title="jSEND demo - screenshot" src="/img/jSEND-demo1.png" alt="" width="609" height="222" />][4]
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+{%include figure.html src="/img/jsend.png" caption="jSEND demo - screenshot from the original, now defuct web site"%}
 
 Use [the demo][4] and paste some of your real data to see the effect. Note that LZW is very good at compressing repetitive text. Serialized data, specially collections, tend to contain repeated key names, repeated values, etc.
 
