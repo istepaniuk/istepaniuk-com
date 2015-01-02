@@ -11,7 +11,7 @@ Even if I were actively searching for a new challenge, there are a couple of thi
 
 The list may seem a bit extensive, but after all, these are basic things I would look for if I was applying for a position myself.
 
-#### Basic company and details
+#### Basic company details
 
 * Mission, vision, purpose, market/customers.
 * The company founders, key people, who they are & what drives them.
