@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="/css/main.css">
   {% include google-analytics.html %}
   {% include google-plus.html %}
-  <script src="/foundation/js/vendor/modernizr.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </head>
 <body>
 
@@ -78,12 +78,10 @@
       <p class="text-right menu-icon"><a href="#topbar">&#x25B2;</a></p>
     </div>
   </div>
-
-  <script src="/foundation/js/vendor/jquery.js"></script>
-  <script src="/foundation/js/vendor/fastclick.js"></script>
-  <script src="/foundation/js/foundation.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.3/fastclick.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation-essential/5.5.0/js/foundation.min.js"></script>
   <script>$(document).foundation();</script>
-
   {% for javascript in site.noita.javascripts %}
     <script src="{{ javascript }}"></script>
   {% endfor %}
