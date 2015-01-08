@@ -3,10 +3,6 @@ title: 'This Is How My Desktop Looks &#8211; Screenshots'
 author: Iván Stepaniuk
 layout: post
 permalink: /this-is-how-my-desktop-looks-screenshots/
-lacandsnw_postmessage:
-  - 
-lacandsnw_twitterhandle:
-  - 
 categories:
   - .net
   - Idle

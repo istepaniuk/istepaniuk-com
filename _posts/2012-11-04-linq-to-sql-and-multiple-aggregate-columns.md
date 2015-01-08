@@ -3,12 +3,6 @@ title: LINQ to SQL and multiple aggregate columns
 author: Iván Stepaniuk
 layout: post
 permalink: /linq-to-sql-and-multiple-aggregate-columns/
-lacandsnw_postmessage:
-  - 
-lacandsnw_twitterhandle:
-  - 
-lacandsnw_twitterhash:
-  - 
 categories:
   - .net
 tags:

@@ -3,12 +3,6 @@ title: Thanks Agile Testing Days 2012!
 author: Iván Stepaniuk
 layout: post
 permalink: /agile-testing-days-2012/
-lacandsnw_postmessage:
-  - 
-lacandsnw_twitterhandle:
-  - 
-lacandsnw_twitterhash:
-  - 
 categories:
   - Agile
   - JavaScript

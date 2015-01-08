@@ -3,10 +3,6 @@ title: Perfection
 author: Iván Stepaniuk
 layout: post
 permalink: /perfection/
-lacandsnw_postmessage:
-  - 
-lacandsnw_twitterhandle:
-  - 
 categories:
   - Idle
 tags:

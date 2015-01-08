@@ -3,10 +3,6 @@ title: Quality Is Not an Option
 author: Iván Stepaniuk
 layout: post
 permalink: /quality-is-not-an-option/
-lacandsnw_postmessage:
-  - 
-lacandsnw_twitterhandle:
-  - 
 categories:
   - .net
   - Agile
