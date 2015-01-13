@@ -7,7 +7,7 @@ I am not actively looking for a new job at the moment. Nonetheless, **thank you*
 
 I am always open for new opportunities, and it is always good to keep an eye on our industry's needs. I receive many requests or proposals like yours every week. Unfortunately, I could not possibly answer them all personally. That is why I have created this page on my site, I hope you do not mind.
 
-Even if I were actively searching for a new challenge, there are a couple of things I need to know **upfront**, before actually considering it. Because this is **non-negotiable**, I generally do not deal with external recruiters, headhunters or employment agencies of any sort. Understandably, they cannot provide this information. I am sorry.
+Even if I were actively searching for a new challenge, there are a couple of things I need to know **upfront**, before actually considering it. Because this is **non-negotiable**, I do not deal with external recruiters, headhunters or employment agencies of any sort. Understandably, they cannot provide this information. I am sorry.
 
 The list may seem a bit extensive, but after all, these are basic things I would look for if I was applying for a position myself.
 
@@ -25,13 +25,13 @@ The list may seem a bit extensive, but after all, these are basic things I would
 Furthermore, if you are an internal recruiter or HR person and can actually point or link to this essential information, note that there are a couple of industries and markets I rather not write software for, ever:
 
 * Weapon, Military & Defense
+* Most Coal, Oil & Gas
 * Financial Services
 * High Speed Trading
 * Investment Banking
-* Adult Entertainment
-* Gambling
-* Most Coal, Oil & Gas
-* Health Insurance
+* Most Adult Entertainment
+* Cassinos & Gambling
+* Most Health Insurance
 * Digital Rights Management
 * Religious Organizations
 
