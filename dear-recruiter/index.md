@@ -7,7 +7,7 @@ I am not actively looking for a new job at the moment. Nonetheless, **thank you*
 
 I am always open for new opportunities, and it is always good to keep an eye on our industry's needs. I receive many requests or proposals like yours every week. Unfortunately, I could not possibly answer them all personally. That is why I have created this page on my site, I hope you do not mind.
 
-Even if I were actively searching for a new challenge, there are a couple of things I need to know **upfront**, before actually considering it. Because this is **non-negotiable**, I do not deal with external recruiters, headhunters or employment agencies of any sort. Understandably, they cannot provide this information. I am sorry.
+Even if I were actively searching for a new challenge, there are a couple of things I need to know **upfront**, before actually considering it. Because this is **non-negotiable**, I do not deal with external recruiters, headhunters or employment agencies of any sort. Understandably, they cannot provide this information. I am sorry if that is your case.
 
 The list may seem a bit extensive, but after all, these are basic things I would look for if I was applying for a position myself.
 
