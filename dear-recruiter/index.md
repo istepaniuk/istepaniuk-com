@@ -3,7 +3,7 @@ title: Dear recruiter
 author: Iván Stepaniuk
 layout: page
 ---
-I am not actively looking for a new job at the moment. Nonetheless, **thank you** very much for offering me or thinking about me for a position.
+I am not actively looking for a new job at the moment. Nonetheless, **thank you** very much for thinking about me for a position, or offering your help with my professional career.
 
 I am always open for new opportunities, and it is always good to keep an eye on our industry's needs. I receive many requests or proposals like yours every week. Unfortunately, I could not possibly answer them all personally. That is why I have created this page on my site, I hope you do not mind.
 
