@@ -22,18 +22,7 @@ The list may seem a bit extensive, but after all, these are basic things I would
 * What have they done?
 * What are their team practices and values?
 
-Furthermore, if you are an internal recruiter or HR person and can actually point or link to this essential information, note that there are a couple of industries and markets I rather not write software for, ever:
-
-* Weapon, Military & Defense
-* Most Coal, Oil & Gas
-* Financial Services
-* High Speed Trading
-* Investment Banking
-* Most Adult Entertainment
-* Cassinos & Gambling
-* Most Health Insurance
-* Digital Rights Management
-* Religious Organizations
+Furthermore, if you are an internal recruiter or HR person and can actually point or link to this essential information, note that there are a couple of industries and markets I rather not write software for, ever. See the list in [this post][1].
 
 # Thanks for understanding!
 
@@ -46,4 +35,5 @@ There is also more information about me in [**this page**](/about)
 #### Contact me
 If you have further questions, you can mail me at istepaniuk@ Google&#8217;s well known free email service.
 
+[1]: /i-will-never-work-for-you "I will never work for you"
 [4]: http://www.linkedin.com/in/istepaniuk "Iván Stepaniuk LinkedIn profile"
