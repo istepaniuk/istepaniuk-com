@@ -10,7 +10,25 @@ I try to keep an updated list of the events and conferences in which I&#8217;ve 
 <table>
    &#8230;<br />
 </table>
+# 2015
 
+<table>
+  <tr>
+    <td>
+      <a href="http://socrates-conference.de/" target="_blank">SoCraTes DE Software Craftsmanship</a><br /> Aug 27th-30th, Hamburg, Germany
+    </td>
+  </tr>
+ 
+Several meetups that I have to add here!
+
+  <tr>
+    <td>
+      <a href="http://socrates-conference.es/" target="_blank">SoCraTes ES Software Craftsmanship</a><br /> Mar 19th-22nd, Tenerife, Spain (Hosted a session)
+    </td>
+  </tr>
+ 
+
+</table>
 # 2014
 
 <table>
