@@ -5,16 +5,16 @@ layout: page
 ---
 ![Iván Stepaniuk](/img/ivan-stepaniuk.jpg)
 
-I am a software developer with a strong background in electronics and telecommunications. I have been writing software for more than fifteen years, in a wide variety of languages and platforms ranging  from Assembler to JavaScript and from 8bit micro-controllers to large web applications.
+I am a software developer with a strong background in electronics and I have been writing software for more than fifteen years in a wide variety of languages and platforms, ranging from Assembler to JavaScript and from 8bit micro-controllers to large business applications. For the last five years I maily focus on enterprise software and the architecture challenges of [enterprise software](/what-is-enterprise-software/) applications.
 
 Currently working at [The Cloakroom](http://www.thecloakroom.com) I enjoy the challenge of an ambitious project and a great team where I can both teach and learn new things every day.
 
-I advocate the [Software Craftmanship](http://manifesto.softwarecraftsmanship.org/) and [Agile Manifesto][1], this has been a great motivation and helped me reinventing myself as a better developer that makes better software.
+I advocate the [Software Craftmanship](http://manifesto.softwarecraftsmanship.org/) and [Agile Manifesto][1], this has been a great motivation and helps me to continuosly reinvent myself as a better developer, that makes better software.
 
 ## Contact me
 Mail me at istepaniuk@ Google&#8217;s well known free email service.
 
-**RECRUITERS:** I am **not** currently interested in new positions.
+**RECRUITERS, AGENCIES, etc:** I am **not** currently interested in new positions.
 
 ### You may also want to check out my profiles on these sites:
 
