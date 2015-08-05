@@ -35,4 +35,5 @@ We do not know what is that this piece of code does, but there is something I ca
 
 If it needs this all these `import` statements, the [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) is clearly not being observed. If the file/module had many smaller classes with different dependencies each, it's also time to split this file into smaller ones, as almost every reason to observe SRP in classes and methods also applies for entities at the file (or module, package, assembly, etc.) level.
 
-#### Stay tuned for more ugly code shapes soon!
+#### More ugly code shapes!
+Check out [Part 2](/the-shapes-of-bad-code-part-2/), and also [Part 3](/the-shapes-of-bad-code-part-3/)
