@@ -1,7 +1,7 @@
 destination: /var/www/blog
 permalink: /:title
 title: Serious Technobabble
-email: istepaniuk@gmail.com
+email: istepaniuk@__remove__this__gmail.com
 description: Iván Stepaniuk's blog about software craftsmanship
 baseurl: ""
 url: "http://blog.istepaniuk.com"
