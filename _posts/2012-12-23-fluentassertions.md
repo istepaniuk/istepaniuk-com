@@ -81,7 +81,7 @@ Assert.That(test, Throws.Exception
 
 ## When something goes wrong
 
-In contrast to the Microsoft *TestTools.Assert*, both FluentAssertions and NUnit try hard to make the error message as clear as possible, when a test fails you certainly want to know what is happening and not just that it broke plus a meaningless line number. This is true specially if you are not on the IDE where you can just click-and-go to the ofending test, but reading a report from your <a target="_new" href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> server. For the second test in this post, FluentAssertions would print out something like: 
+In contrast to the Microsoft *TestTools.Assert*, both FluentAssertions and NUnit try hard to make the error message as clear as possible, when a test fails you certainly want to know what is happening and not just that it broke plus a meaningless line number. This is true specially if you are not on the IDE where you can just click-and-go to the ofending test, but reading a report from your <a target="_blank" href="http://en.wikipedia.org/wiki/Continuous_integration">continuous integration</a> server. For the second test in this post, FluentAssertions would print out something like: 
 
 ```
 Expected object to be Color [Yellow], but found Color [Green].
