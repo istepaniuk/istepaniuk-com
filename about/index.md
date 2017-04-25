@@ -18,7 +18,6 @@ For other matters mail me at istepaniuk@ Google&#8217;s well known free email se
 ### You may also want to check out my profiles on these sites:
 
 [<img alt="Twitter" src="/img/icons/twitter.png" width="43" height="43" />][2]
-[<img alt="Coderwall" src="/img/icons/coderwall.png" width="44" height="44" />][3]
 [<img alt="LinkedIn" src="/img/icons/linkedin.png" width="43" height="43" />][4]
 [<img alt="Gigthub" src="/img/icons/github.png" width="44" height="44" />][5]
 [<img alt="Layrd" style="margin-top: 6px;" src="/img/icons/lanyrd.png" width="39" height="39" />][6]
