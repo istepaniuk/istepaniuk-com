@@ -23,7 +23,9 @@ FluentAssertions allows us to convert something like this:
 public void ReturnsYellowForBananas()
 {
     var service = new FruitColorService();
+    
     var result = service.GetColorOf(new Banana());
+    
     Assert.AreEqual(Color.Yellow, result);
 }
 ```
@@ -64,8 +66,10 @@ To become the following snippet. I preffer this way because it keeps the *arrang
 public void ThrowsAnExceptionIfItIsNotAFruit()
 {
     var service = new FruitColorService();
+    
     Action action = () => service.GetColorOf(new Tomato());
-    action.ShouldThrow&lt;InvalidFruitException>();
+    
+    action.ShouldThrow<InvalidFruitException>();
 }
 ```
 
@@ -75,7 +79,7 @@ I preffer the FluentAssertions way, but note that NUnit also has it&#8217;s flue
 TestDelegate test = () => service.GetColorOf(new Tomato());
 
 Assert.That(test, Throws.Exception
-      .TypeOf&lt;InvalidFruitException>());
+      .TypeOf<InvalidFruitException>());
 
 ```
 
