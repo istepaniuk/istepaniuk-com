@@ -19,8 +19,6 @@ redcarpet:
 
 highlighter: pygments
 
-google_analytics_id: "UA-30612993-1"
-
 paginate: 5
 paginate_path: "page/:num/"
 

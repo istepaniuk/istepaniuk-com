@@ -28,7 +28,7 @@ For other matters mail me at istepaniuk@ Google&#8217;s well known free email se
 [<img title="Profile for istepaniuk on Stack Exchange, a network of free, community-driven Q&amp;A sites" alt="profile for istepaniuk on Stack Exchange, a network of free, community-driven Q&amp;A sites" src="http://stackexchange.com/users/flair/477181.png" width="208" height="58" />][8]
 
 ### Or just look me up on Google
-<a href="http://www.google.com/search?q=Iván+Stepaniuk" target="_blank">http://www.google.com/search?q=Iván+Stepaniuk</a>
+<a href="https://www.google.com/search?q=Iván+Stepaniuk" target="_blank">https://www.google.com/search?q=Iván+Stepaniuk</a>
 
 
  [1]: http://agilemanifesto.org/ "Agile Manifesto"
