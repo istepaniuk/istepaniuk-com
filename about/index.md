@@ -5,7 +5,7 @@ layout: page
 ---
 ![Iván Stepaniuk](/img/ivan-stepaniuk.jpg)
 
-I have been creating software for more than fifteen years in a wide variety of stacks, languages and platforms. I currently work at [The Cloakroom](http://www.thecloakroom.com) in Amsterdam, where I enjoy the challenge of an ambitious project, and the possibility to teach and learn new things every day in a great team.
+I have been creating software for more than fifteen years in a wide variety of stacks, languages and platforms. I currently work at [Pragmatist](http://www.pragmatist.nl) in Amsterdam, where I help our clients move to the next level.
 
 I advocate [Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) and the [Agile Manifesto][1], this has been a great motivation and helps me to continuously reinvent myself as a better developer that makes better quality software.
 
