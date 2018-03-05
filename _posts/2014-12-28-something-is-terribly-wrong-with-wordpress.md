@@ -47,4 +47,4 @@ I just want to write some stuff, it shouldn't be so damn complicated.
 ### The solution
 If you are not a developer or sysadmin or you would rather spend your time blogging and not dealing with this nightmare, get somebody to manage your Wordpress for you, or get a paid [wordpress.com](http://wordpress.com) account, or a [ghost.org](http://ghost.org) one, etc. Running it yourself is an incredible waste of time.
 
-If you ARE a developer or systadmin wanting to run a tech blog, **there is a solution!** it's called [Jekyll](http://www.jekyllrb.com) and I will tell about it very soon!
+If you ARE a developer or sysadmin wanting to run a tech blog, **there is a solution!** it's called [Jekyll](http://www.jekyllrb.com) and I will tell about it very soon!
