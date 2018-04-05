@@ -1,3 +1,5 @@
+gems: [jekyll-paginate]
+
 destination: /var/www/blog
 permalink: /:title
 title: Serious Technobabble
