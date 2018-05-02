@@ -2,6 +2,7 @@
 title: I will never work for you
 author: Iván Stepaniuk
 layout: post
+permalink: /i-will-never-work-for-you/
 categories:
   - Idle
 ---
