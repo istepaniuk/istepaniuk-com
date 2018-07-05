@@ -7,11 +7,10 @@ layout: page
 
 I have been creating software for more than fifteen years in a wide variety of stacks, languages and platforms. I currently work at [Pragmatist](http://www.pragmatist.nl) in Amsterdam, where I help our clients move to the next level.
 
-I advocate [Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) and the [Agile Manifesto][1], this has been a great motivation and helps me to continuously reinvent myself as a better developer that makes better quality software.
-
+I advocate the [Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) and [Agile][1] manifestos. These, together with [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) practices, have been a great source of motivation and help me continuously reinvent myself as a better developer that makes better quality software.
 
 ## Contact me
-**RECRUITERS, AGENCIES, etc:** I am **not** currently interested in new positions.
+**EXTERNAL RECRUITERS, RECRUITMENT AGENCIES, etc:** Thanks, no.
 
 For other matters mail me at istepaniuk@ Google&#8217;s well known free email service.
 
