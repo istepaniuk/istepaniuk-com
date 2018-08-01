@@ -1,7 +1,13 @@
 ---
 title: Dear recruiter
 author: Iván Stepaniuk
-layout: page
+layout: post
+permalink: /dear-recruiter/
+categories:
+  - Idle
+tags:
+  - recruiter
+  - hiring
 ---
 I am not actively looking for a new job at the moment. Nonetheless, **thank you** very much for thinking about me for a position, or offering your help with my professional career.
 

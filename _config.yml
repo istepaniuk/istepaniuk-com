@@ -42,8 +42,6 @@ noita:
         url: /about/
       - name: Book List
         url: /book-list/
-      - name: Talks & Events
-        url: /talks-events/
       - name: Repository
         url: https://github.com/istepaniuk/istepaniuk-com
         class: small button
