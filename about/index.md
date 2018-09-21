@@ -10,9 +10,7 @@ I have been creating software for more than fifteen years in a wide variety of s
 I advocate the [Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) and [Agile][1] manifestos. These, together with [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) practices, have been a great source of motivation and help me continuously reinvent myself as a better developer that makes better quality software.
 
 ## Contact me
-**EXTERNAL RECRUITERS, RECRUITMENT AGENCIES, etc:** Thanks, no.
-
-For other matters mail me at istepaniuk@ Google&#8217;s well known free email service.
+**RECRUITERS, RECRUITMENT AGENCIES, etc:** Thanks, but NO.
 
 ### You may also want to check out my profiles on these sites:
 
