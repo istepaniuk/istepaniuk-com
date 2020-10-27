@@ -16,7 +16,8 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
         -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:3.8 /bin/bash -c "gem install pygments.rb redcarpet && chmod 777 /srv/jekyll && jekyll build --future"
+        jekyll/builder:4.1.0 /bin/bash -c \
+        "chmod 777 /srv/jekyll && git submodule init && git submodule update && jekyll build --future"
 
 
     # Copying files and artifacts via SSH

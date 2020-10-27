@@ -1,6 +1,5 @@
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
-destination: /var/www/blog
 permalink: /:title
 title: Serious Technobabble
 email: istepaniuk@__remove__this__gmail.com
@@ -14,10 +13,6 @@ exclude:
   - LICENSE
   - node_modules/
   - README.md
-
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables", "fenced_code_blocks"]
 
 highlighter: pygments
 
