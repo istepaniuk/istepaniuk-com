@@ -14,8 +14,6 @@ exclude:
   - node_modules/
   - README.md
 
-highlighter: pygments
-
 paginate: 5
 paginate_path: "page/:num/"
 
