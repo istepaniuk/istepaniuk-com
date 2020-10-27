@@ -1,5 +1,5 @@
-Serious Technobabble
-====================
+# Serious Technobabble
+
 This is the source code for my technical blog. 
 
 <h3>
