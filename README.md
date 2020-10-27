@@ -1,5 +1,7 @@
 # Serious Technobabble
 
+![Jekyll site CI](https://github.com/istepaniuk/istepaniuk-com/workflows/Jekyll%20site%20CI/badge.svg)
+
 This is the source code for my technical blog. 
 
 <h3>
