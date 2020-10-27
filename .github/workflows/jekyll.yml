@@ -16,9 +16,7 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll \
         -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:4.1.0 /bin/bash -c \
-        "chmod 777 /srv/jekyll && git submodule init && git submodule update && jekyll build --future && apk add tidyhtml && find _site -name \"*.html\" -exec tidy -config _tidy_config.txt {} \\;"
-
+        jekyll/builder:4.1.0 ./build.sh
 
     # Copying files and artifacts via SSH
     - name: Copying files to server
