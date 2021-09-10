@@ -1,9 +1,9 @@
 plugins: [jekyll-paginate]
 
 permalink: /:title
-title: Serious Technobabble
+title: Iván Stepaniuk's Technical Blog
 email: istepaniuk@__remove__this__gmail.com
-description: Iván Stepaniuk's blog about software craftsmanship
+description: Iván Stepaniuk's blog on crafting software
 baseurl: ""
 url: "https://blog.istepaniuk.com"
 twitter_username: istepaniuk
@@ -22,8 +22,8 @@ sass:
     style: :compressed
 
 noita:
-  name: Serious Technobabble
-  description: Iván Stepaniuk's blog about software craftsmanship
+  name: Iván Stepaniuk's Technical Blog
+  description: Iván Stepaniuk's blog on crafting software
   author:
     name: Iván Stepaniuk
     url: http://github.com/istepaniuk

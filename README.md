@@ -1,4 +1,4 @@
-# Serious Technobabble
+# Iván Stepaniuk's Technical Blog
 
 ![Jekyll site CI](https://github.com/istepaniuk/istepaniuk-com/workflows/Jekyll%20site%20CI/badge.svg)
 
