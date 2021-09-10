@@ -5,12 +5,13 @@ layout: page
 ---
 ![Iván Stepaniuk](/img/ivan-stepaniuk.jpg)
 
-I have been creating software for almost twenty years in a wide variety of stacks, languages and platforms. I am based in Amsterdam and work at [Pragmatist](http://www.pragmatist.nl), where I help our clients move to the next level.
+I have been creating software for over twenty years in a wide variety of stacks, languages and platforms. 
+I am based in Amsterdam and work as an independent consultant and technical coach at [Stepaniuk](https://stepaniuk.nl) where I help my clients move to the next level.
 
 I advocate the [Software Craftsmanship](http://manifesto.softwarecraftsmanship.org/) and [Agile][1] manifestos. These, together with [Extreme Programming](https://en.wikipedia.org/wiki/Extreme_programming) practices, have been a great source of motivation and help me continuously reinvent myself as a better developer that makes better quality software.
 
 ## Contact me
-**RECRUITERS, RECRUITMENT AGENCIES, etc:** Thanks, but NO.
+**RECRUITMENT AGENCIES, etc:** Thanks, but no. I do not work with intermediaries.
 
 ### You may also want to check out my profiles on these sites:
 
