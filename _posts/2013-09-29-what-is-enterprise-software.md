@@ -1,5 +1,5 @@
 ---
-title: What Is Enterprise Software?
+title: What is Enterprise Software?
 author: Iván Stepaniuk
 layout: post
 permalink: /what-is-enterprise-software/

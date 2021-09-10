@@ -1,5 +1,5 @@
 ---
-title: Dear recruiter
+title: Dear Recruiter
 author: Iván Stepaniuk
 layout: post
 permalink: /dear-recruiter/

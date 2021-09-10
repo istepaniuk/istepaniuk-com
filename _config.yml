@@ -14,7 +14,7 @@ exclude:
   - node_modules/
   - README.md
 
-paginate: 5
+paginate: 10
 paginate_path: "page/:num/"
 
 sass:

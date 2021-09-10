@@ -1,5 +1,5 @@
 ---
-title: Just installed Ghost on Heroku!
+title: Just Installed Ghost on Heroku!
 author: Iván Stepaniuk
 layout: post
 permalink: /just-installed-ghost-on-heroku/
