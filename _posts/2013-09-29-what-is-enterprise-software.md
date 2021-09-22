@@ -3,8 +3,8 @@ title: What is Enterprise Software?
 author: Iván Stepaniuk
 layout: post
 permalink: /what-is-enterprise-software/
-categories:
-  - Idle
+tags:
+  - enterprise
 ---
 Big IT vendors market their products as &#8220;enterprise ready&#8221;, basically meaning &#8220;ready to rip you off&#8221;. This, and other misuses of the term explain why using the word &#8220;enterprise&#8221; to describe a piece of software triggers horrified looks and trying-not-to-vomit faces. The <a href="http://www.urbandictionary.com/define.php?term=intertubes" target="_blank">intertubes</a> have excellent definitions for what Enterprise Software is, but it seems there is place for yet another answer to this question.
 

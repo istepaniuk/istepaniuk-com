@@ -3,13 +3,11 @@ title: Thanks Agile Testing Days 2012!
 author: Iván Stepaniuk
 layout: post
 permalink: /agile-testing-days-2012/
-categories:
-  - Agile
-  - JavaScript
-  - Testing
 tags:
+  - javascript
+  - testing
   - agile
-  - AgileTD
+  - agiletd
   - bdd
 ---
 It&#8217;s been less than a week since I came back from Berlin/Postdam from the best conference I attended this year, the <a title="Agile Testing Days conference" href="http://www.agiletestingdays.com/" target="_blank">Agile Testing Days</a>. I co-presented a talk there with my colleague and friend <a title="Carlos Blé on Twitter" href="https://twitter.com/carlosble" target="_blank">Carlos Blé</a> [thanks Carlos for proposing me this collaboration, it&#8217;s always a pleasure to work together!], our talk was: <a title="Carlos Blé - Iván Stepaniuk: BDD with Javascript for Rich Internet Applications" href="http://www.agiletestingdays.com/program.php?p=46" target="_blank">BDD with Javascript for Rich Internet Applications</a>. We are very happy with the outcome of the talk, but most importantly I&#8217;m  very happy with the overall level of the conference, the speakers, attendees, and the organization.

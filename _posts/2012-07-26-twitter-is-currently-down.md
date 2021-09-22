@@ -3,8 +3,6 @@ title: 'Twitter is currently down for &lt;%= reason %&gt;.'
 author: Iván Stepaniuk
 layout: post
 permalink: /twitter-is-currently-down/
-categories:
-  - Idle
 tags:
   - cloud
   - twitter

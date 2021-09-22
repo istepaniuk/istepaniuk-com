@@ -3,9 +3,8 @@ title: Open Web Device, Boot2Gecko, a new smartphone paradigm
 author: Iván Stepaniuk
 layout: post
 permalink: /owd-b2g-new-smartphone-paradigm/
-categories:
-  - Mobile
 tags:
+  - mobile
   - b2g
   - mozilla
   - owd

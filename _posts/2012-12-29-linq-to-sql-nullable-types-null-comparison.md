@@ -3,12 +3,10 @@ title: 'LINQ to SQL pitfalls: Nullable types'
 author: Iván Stepaniuk
 layout: post
 permalink: /linq-to-sql-nullable-types-null-comparison/
-categories:
-  - .net
 tags:
-  - 'C#'
-  - LINQ
-  - LINQ to SQL
+  - .net
+  - 'c#'
+  - linq
 ---
 ## Nullable booleans and comparisons
 

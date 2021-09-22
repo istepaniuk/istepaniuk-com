@@ -3,11 +3,10 @@ title: List of speakers at the Agile Testing Days 2012 conference, and their Twi
 author: Iván Stepaniuk
 layout: post
 permalink: /twitter-for-speakers-at-the-agile-testing-days-2012-conference/
-categories:
-  - Agile
-  - Testing
 tags:
-  - AgileTD
+  - agile
+  - testing
+  - agiletd
 ---
 So! It is almost two weeks to go for the <a title="Agile Testing Days 2012" href="http://www.agiletestingdays.com/" target="_blank">Agile Testing Days 2012</a> conference in Postdam/Berlin, Germany. The <a title="AgileTD Program" href="http://www.agiletestingdays.com/program.php" target="_blank">program</a> looks awesome, there will be a lot of interesting talks and more than 70 speakers.
 

@@ -3,10 +3,9 @@ title: Dear Recruiter
 author: Iván Stepaniuk
 layout: post
 permalink: /dear-recruiter/
-categories:
-  - Idle
 tags:
   - recruiter
+  - ethics
   - hiring
 ---
 I am not actively looking for a new job at the moment. Nonetheless, **thank you** very much for thinking about me for a position, or offering your help with my professional career.

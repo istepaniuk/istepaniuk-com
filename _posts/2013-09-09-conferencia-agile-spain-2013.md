@@ -3,12 +3,10 @@ title: Conferencia Agile Spain 2013
 author: Iván Stepaniuk
 layout: post
 permalink: /conferencia-agile-spain-2013/
-categories:
-  - Agile
-  - Community
 tags:
-  - Agile-Spain
-  - CAS
+  - community
+  - agile-spain
+  - cas2013
   - conference
 ---
 I will be speaking at this year&#8217;s CAS, the most important Agile conference in Spain, held yearly in a different city each time: <a href="http://conferencia2013.agile-spain.org/en/la-conferencia/" target="_blank">http://conferencia2013.agile-spain.org/</a>

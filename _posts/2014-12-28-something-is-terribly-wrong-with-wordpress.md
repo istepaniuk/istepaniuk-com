@@ -3,8 +3,9 @@ title: Something Is Terribly Wrong with Wordpress
 author: Iván Stepaniuk
 layout: post
 permalink: /something-is-terribly-wrong-with-wordpress/
-categories:
-  - Idle
+tags:
+  - blog
+  - wordpress
 ---
 
 ### WARNING: This is just a rant, probably you should not read it.

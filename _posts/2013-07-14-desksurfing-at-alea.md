@@ -3,11 +3,7 @@ title: DeskSurfing at Alea
 author: Iván Stepaniuk
 layout: post
 permalink: /desksurfing-at-alea/
-categories:
-  - Agile
-  - Idle
 tags:
-  - desk surfing
   - desksurfing
   - pair programming
 ---

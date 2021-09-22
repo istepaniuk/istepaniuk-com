@@ -3,9 +3,10 @@ title: Extract Test Fixtures Early
 author: Iván Stepaniuk
 layout: post
 permalink: /extract-test-fixtures-early/
-categories:
-  - Testing
-  - TDD
+tags:
+  - testing
+  - tdd
+  - design
 ---
 
 ### TL;DR:

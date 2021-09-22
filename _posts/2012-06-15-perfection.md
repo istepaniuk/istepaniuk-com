@@ -3,8 +3,6 @@ title: Perfection
 author: Iván Stepaniuk
 layout: post
 permalink: /perfection/
-categories:
-  - Idle
 tags:
   - perfection
   - quality

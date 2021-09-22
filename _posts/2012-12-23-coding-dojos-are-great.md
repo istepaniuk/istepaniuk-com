@@ -3,10 +3,9 @@ title: Coding Dojos Are Great
 author: Iván Stepaniuk
 layout: post
 permalink: /coding-dojos-are-great/
-categories:
-  - Idle
 tags:
   - dojo
+  - community
 ---
 In 2012 I had the chance to participate in around dozen Coding Dojos. A Coding Dojo is, according to the <a title="What Is a Coding Dojo?" href="http://codingdojo.org/cgi-bin/wiki.pl?WhatIsCodingDojo" target="_blank">codingdojo.org</a> website:
 

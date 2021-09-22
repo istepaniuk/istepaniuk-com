@@ -3,11 +3,8 @@ title: 'Refactoring Dojo: The Gilded Rose Kata'
 author: Iván Stepaniuk
 layout: post
 permalink: /refactoring-dojo-the-gilded-rose-kata/
-categories:
-  - Agile
-  - Community
-  - JavaScript
 tags:
+  - community
   - coding dojo
   - craftsmanship
   - gilded rose

@@ -3,8 +3,6 @@ title: 'WASTE &#8211; Testing our backend with just Bash and Wget'
 author: Iván Stepaniuk
 layout: post
 permalink: /waste-testing-our-backend-with-just-bash-and-wget/
-categories:
-  - Testing
 tags:
   - bash
   - testing

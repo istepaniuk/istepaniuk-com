@@ -3,8 +3,8 @@ title: 'printf(&#8220;Hello world!&#8221;);'
 author: Iván Stepaniuk
 layout: post
 permalink: /hello-world/
-categories:
-  - Uncategorized
+tags:
+  - hello world
 ---
 Isn't that a classic?
 

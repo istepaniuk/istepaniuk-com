@@ -3,11 +3,10 @@ title: 'Five Focusing Steps: Theory of Constraints'
 author: Iván Stepaniuk
 layout: post
 permalink: /five-focusing-steps-theory-of-constraints/
-categories:
-  - Agile
 tags:
-  - CAS2012
-  - TOC
+  - agile
+  - cas2012
+  - theory of constraints
 ---
 During the <a title="Conferencia Agile Spain 2012" href="http://conferencia2012.agile-spain.org/" target="_blank">CAS2012 </a>I had the chance to participate in a workshop by <a title="Masa K. Maeda, PhD." href="https://twitter.com/masaKmaeda" target="_blank">Masa K. Maeda</a> on the five focusing steps of the <a href="http://en.wikipedia.org/wiki/Theory_of_constraints" target="_blank">Theory of Constraints</a>.
 
@@ -17,7 +16,7 @@ TOC is based on the premise that the throughput of a goal-oriented system is lim
 
 Assuming the goal of a system and its measurements have been defined, the five steps are:
 
-  1. **Identify** the system&#8217;s constraint that prevents the organization from obtaining  a higher throughput.
+  1. **Identify** the system&#8217;s constraint that prevents the organization from obtaining a higher throughput.
   2. **Exploit** the identified constraint to get the most out of it.
   3. **Subordinate** everything else to the above decision to support it.
   4. **Elevate** the system&#8217;s constraint making other major changes needed to break it.

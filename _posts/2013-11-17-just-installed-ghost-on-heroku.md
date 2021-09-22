@@ -3,9 +3,10 @@ title: Just Installed Ghost on Heroku!
 author: Iván Stepaniuk
 layout: post
 permalink: /just-installed-ghost-on-heroku/
-categories:
-  - Idle
-  - JavaScript
+tags:
+  - javascript
+  - ghost
+  - heroku
 ---
 ### <a title="This post Ghost, on Heroku" href="http://istepaniuk.herokuapp.com/just-installed-ghost-on-heroku/" target="_blank">Check it out!</a> (And you can continue reading there, it is a copy of this post)
 

@@ -3,14 +3,12 @@ title: FluentAssertions
 author: Iván Stepaniuk
 layout: post
 permalink: /fluentassertions/
-categories:
-  - .net
-  - Testing
 tags:
-  - 'C#'
-  - Fluent
-  - FluentAssertions
-  - Unit Testing
+  - .net
+  - testing
+  - 'c#'
+  - fluent
+  - fluentassertions
 ---
 <a href="http://fluentassertions.codeplex.com/" target="_blank">FluentAssertions</a> is a set of .NET extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style test. It is written by <a href="http://www.dennisdoomen.net/" target="_blank">Dennis Doomen</a> and <a href="https://twitter.com/mpopdam" target="_blank">Martin Opdam</a>. For a quick overview, take a look at the <a href="http://fluentassertions.codeplex.com/documentation" target="_blank">documentation</a>.
 

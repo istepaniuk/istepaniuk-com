@@ -3,12 +3,10 @@ title: Windows Azure nodes in Europe are down
 author: Iván Stepaniuk
 layout: post
 permalink: /windows-azure-is-down/
-categories:
-  - Idle
 tags:
   - azure
   - cloud
-  - Microsoft
+  - microsoft
 ---
 Since 11:09 AM UTC today, the compute nodes in  the Windows Azure Platform are not responding for the West-Europe region.
 

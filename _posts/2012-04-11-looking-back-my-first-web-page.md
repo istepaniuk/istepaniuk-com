@@ -3,8 +3,6 @@ title: Looking back, my first web page
 author: Iván Stepaniuk
 layout: post
 permalink: /looking-back-my-first-web-page/
-categories:
-  - Idle
 tags:
   - retro
   - web design

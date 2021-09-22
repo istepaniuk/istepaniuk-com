@@ -3,12 +3,10 @@ title: LINQ to SQL and multiple aggregate columns
 author: Iván Stepaniuk
 layout: post
 permalink: /linq-to-sql-and-multiple-aggregate-columns/
-categories:
-  - .net
 tags:
-  - 'C#'
-  - LINQ
-  - LINQ to SQL
+  - .net
+  - 'c#'
+  - linq
 ---
 The following very simple T-SQL query will return the average value for all values in the *Rating* column:
 

@@ -3,8 +3,6 @@ title: Writing international software is hard
 author: Iván Stepaniuk
 layout: post
 permalink: /writing-international-software-is-hard/
-categories:
-  - Translation and i18n
 tags:
   - i18n
   - l10n

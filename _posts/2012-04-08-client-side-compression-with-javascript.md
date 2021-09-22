@@ -3,12 +3,10 @@ title: Client-side data compression with JavaScript
 author: Iván Stepaniuk
 layout: post
 permalink: /client-side-compression-with-javascript/
-categories:
-  - JavaScript
 tags:
   - compression
-  - JavaScript
-  - jSEND
+  - javascript
+  - jsend
   - lzw
 ---
 When retrieving data from the server through HTTP, you can generally rely on your web server to compress the information using [gzip or deflate][1]. You can even do the trick yourself on your backend code. However, sending large amounts of data from the browser **-to-** the server, is another story.

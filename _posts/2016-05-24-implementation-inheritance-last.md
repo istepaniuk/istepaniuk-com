@@ -3,9 +3,9 @@ title: Implementation Inheritance Last
 author: Iván Stepaniuk
 layout: post
 permalink: /implementation-inheritance-last/
-categories:
-  - Design
-  - Ruby
+tags:
+  - design
+  - ruby
 ---
 
 ### TL;DR:

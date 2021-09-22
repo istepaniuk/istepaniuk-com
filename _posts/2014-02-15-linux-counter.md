@@ -3,8 +3,8 @@ title: Linux Counter
 author: Iván Stepaniuk
 layout: post
 permalink: /linux-counter/
-categories:
-  - Idle
+tags:
+  - linux
 ---
 I just remembered I have one of these, and look! ~~It still works!~~
 

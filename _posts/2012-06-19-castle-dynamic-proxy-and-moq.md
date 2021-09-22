@@ -3,9 +3,8 @@ title: Castle Dynamic Proxy and moq
 author: Iván Stepaniuk
 layout: post
 permalink: /castle-dynamic-proxy-and-moq/
-categories:
-  - Testing
 tags:
+  - testing
   - castle
   - dynamic proxy
   - moq

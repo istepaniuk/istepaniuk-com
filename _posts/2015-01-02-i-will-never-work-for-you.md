@@ -3,8 +3,8 @@ title: I will never work for you
 author: Iván Stepaniuk
 layout: post
 permalink: /i-will-never-work-for-you/
-categories:
-  - Idle
+tags:
+  - ethics
 ---
 
 There are a couple of industry sectors that I would rather not write software for, ever. The most important ones are:

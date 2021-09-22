@@ -3,15 +3,13 @@ title: Using PhantomJS to make your AJAX web applications crawlable by Google
 author: Iván Stepaniuk
 layout: post
 permalink: /phantomjs-to-make-your-ajax-web-crawlable-by-google/
-categories:
-  - JavaScript
 tags:
-  - AJAX
-  - Google
-  - Hijax
-  - JavaScript
-  - PhantomJS
-  - SEO
+  - ajax
+  - google
+  - hijax
+  - javascript
+  - phantomjs
+  - seo
 ---
 JavaScript is playing a stellar role in web development; However, the indexing mechanisms behind search engines such as Google or Bing do not execute JavaScript. Although they may try to follow JavaScript embedded URLs, this won&#8217;t prevent your JavaScript managed content to be hidden from the search engine, depending on your case, this could be a disaster from the SEO point of view.
 

@@ -3,14 +3,11 @@ title: Quality Is Not an Option
 author: Iván Stepaniuk
 layout: post
 permalink: /quality-is-not-an-option/
-categories:
-  - .net
-  - Agile
-  - Testing
 tags:
+  - .net
+  - agile
   - quality
   - testing
-  - Unit Testing
 ---
 I have recently participated in a meeting of <a href="https://twitter.com/MsCodersMadrid" target="_blank">@MsCodersMadrid</a>, a group of developers that work with Microsoft technologies. The proposed topic was &#8220;good coding practices&#8221;, and it was an open debate. People shared the tools they use for code style analysis in C#, such as StyleCop or ReSharper. We spoke about comments vs. no comments (NO!), regions vs. they are evil (EVIL!), etc., reaching similar conclusions.
 
