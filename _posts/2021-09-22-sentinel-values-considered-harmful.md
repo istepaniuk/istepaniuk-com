@@ -2,7 +2,7 @@
 title: Sentinel Values Considered Harmful
 author: Iván Stepaniuk
 layout: post
-permalink: /extract-test-fixtures-early/
+permalink: /sentinel-values-considered-harmful/
 tags:
   - design
 ---
