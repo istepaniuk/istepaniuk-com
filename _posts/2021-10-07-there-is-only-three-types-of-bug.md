@@ -1,8 +1,8 @@
 ---
-title: There Is Only Three Types of Bug 
+title: There Are Only Three Types of Bug 
 author: Iván Stepaniuk
 layout: post
-permalink: /there-is-only-three-types-of-bug/
+permalink: /there-are-only-three-types-of-bug/
 tags:
   - agile
 ---
