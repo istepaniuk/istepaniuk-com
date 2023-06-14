@@ -29,14 +29,6 @@ layout: page
 ![enterprise-integration-patterns](/img/books/enterprise-integration-patterns.jpg)|Enterprise Integration Patterns | *Gregor Hohpe, Bobby Woolf*
 ![implementing-ddd](/img/books/implementing-ddd.jpg)|Implementing Domain-Driven Design | *Vaughn Vernon*
 
-## On JavaScript
-
-|||
-|---|---|
-![JavaScript Allongé](/img/books/javascript-allonge.jpg)|JavaScript Allongé | *Reginald Braithwaite*
-![javascript-the-good-parts](/img/books/javascript-the-good-parts.jpg)| JavaScript, The Good Parts | *Douglas Crockford*
-![javascript-patterns](/img/books/javascript-patterns.jpg)|JavaScript Patterns  | *Stoyan Stefanov*
-
 <span class="legal-note">
 These books and their covers copyrights are owned by their respective owners and are not licensed under this site CC license.
 The purpose of these low-resolution images is to illustrate an article discussing these books and qualifies as fair use.
